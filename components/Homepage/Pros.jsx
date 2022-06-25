@@ -15,8 +15,8 @@ const Pros = () => {
                                 <Image src={TimeSlot} alt="" />
                             </div>
                             <h3 className="mb-2 font-bold">Tiết kiệm thời gian</h3>
-                            <p className="text-sm leading-relaxed">Lướt. Chọn.</p>
-                            <p className="text-sm leading-relaxed">Mọi thứ tại mọi nơi.</p>
+                            <p className="text-sm leading-relaxed text-gray-400">Lướt. Chọn.</p>
+                            <p className="text-sm leading-relaxed text-gray-400">Mọi thứ tại mọi nơi.</p>
                         </div>
                     </div>
                     <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
@@ -25,8 +25,8 @@ const Pros = () => {
                                 <Image src={Coin} alt="" />
                             </div>
                             <h3 className="mb-2 font-bold">Tiết kiệm tiền bạc</h3>
-                            <p className="text-sm leading-relaxed">Mua ít hơn.</p>
-                            <p className="text-sm leading-relaxed">Tiết kiệm nhiều hơn.</p>
+                            <p className="text-sm leading-relaxed text-gray-400">Mua ít hơn.</p>
+                            <p className="text-sm leading-relaxed text-gray-400">Tiết kiệm nhiều hơn.</p>
                         </div>
                     </div>
                     <div className="w-full lg:w-1/3 px-3 mb-6">
@@ -36,8 +36,8 @@ const Pros = () => {
                             </div>
 
                             <h3 className="mb-2 font-bold">Thân thiện môi trường</h3>
-                            <p className="text-sm leading-relaxed">Tái chế. Từ chối.</p>
-                            <p className="text-sm leading-relaxed">Sống tối giản. Giảm thiểu rác.</p>
+                            <p className="text-sm leading-relaxed text-gray-400">Tái chế. Từ chối.</p>
+                            <p className="text-sm leading-relaxed text-gray-400">Sống tối giản. Giảm thiểu rác.</p>
                         </div>
                     </div>
                 </div>
