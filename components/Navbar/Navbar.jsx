@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-
+import { useUser } from '@auth0/nextjs-auth0';
 
 function Navbar() {
   const [navBar, setNavBar] = useState(false)
+  const { user } = useUser();
 
   return (
     <section className="relative bg-white overflow-hidden">
@@ -50,12 +51,34 @@ function Navbar() {
           </ul>
         </div>
         <div className="hidden lg:flex ml-auto items-center">
-          <Link href="/login">
+
+
+          {user ? (<Link href="/api/auth/logout">
             <a
               className="inline-flex mr-8 items-center rounded-full text-green-600 hover:underline"
               href="#"
             >
-              <span className="mr-2 text-sm font-heading">Sign In</span>
+              <span className="mr-2 text-sm font-heading">Log Out</span>
+              <svg
+                width="16"
+                height="10"
+                viewBox="0 0 16 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.01 3.95383H0V6.04614H12.01V9.1846L16 4.99998L12.01 0.815369V3.95383Z"
+                  fill="#046c31"
+                ></path>
+              </svg>
+            </a>
+          </Link>) : (
+              <Link href="/api/auth/login">
+            <a
+              className="inline-flex mr-8 items-center rounded-full text-green-600 hover:underline"
+              href="#"
+            >
+              <span className="mr-2 text-sm font-heading">Sign in</span>
               <svg
                 width="16"
                 height="10"
@@ -70,6 +93,9 @@ function Navbar() {
               </svg>
             </a>
           </Link>
+          )}
+
+
           <Link href="/register">
             <a
               className="inline-flex items-center justify-center py-3 px-6 rounded-full bg-green-500 hover:bg-green-600 transform duration-200"
@@ -228,7 +254,8 @@ function Navbar() {
               </span>
             </a>
           </Link>
-          <Link href="/login">
+
+          <Link href="/api/auth/login">
               <a
                 className="flex mb-8 items-center justify-center py-4 px-6 hover:underline"
                 href="#"
@@ -251,6 +278,7 @@ function Navbar() {
                 </span>
               </a>
           </Link>
+
           <p className="text-sm text-gray-500">
             All rights reserved ©Virento 2022
           </p>
