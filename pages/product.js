@@ -5,9 +5,9 @@ import Navbar from "../components/Navbar/Navbar";
 
 export const getStaticProps = async () => {
     const res = await fetch(`${baseUrl}/items`)
-    const data = await res.json()
+    const products = await res.json()
     return {
-        props: {products: data}
+        props: {products}
     }
 }
 
@@ -41,6 +41,7 @@ const Product = ( {products} ) => {
                                 category={product.category}
                                 description={product.description}
                                 price={product.price}
+                                id={product.id}
                             />
                         ))}
                     </div>

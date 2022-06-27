@@ -17,7 +17,7 @@ const Introduction = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-1/2 px-3">
-                        <div className="bg-white ">
+                        <div className="bg-white">
                             <div className="h-full mx-auto">
                                 <Image src={Bicycle} alt="" />
                             </div>

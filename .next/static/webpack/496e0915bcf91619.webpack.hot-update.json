@@ -1,0 +1,1 @@
+{"c":["pages/product","webpack"],"r":["pages/product/[productId]"],"m":["./components/Product/SingleProductPage.jsx","./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=%2Fhome%2Fhathai15%2FDesktop%2FWorkspace%2FVirento-frontend%2Fpages%2Fproduct%2F%5BproductId%5D.js&page=%2Fproduct%2F%5BproductId%5D!","./pages/product/[productId].js"]}
