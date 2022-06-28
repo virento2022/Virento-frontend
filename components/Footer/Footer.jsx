@@ -31,7 +31,7 @@ VIRENTO không chỉ dừng lại ở việc mang tới lợi ích cho chính nh
                 Office
                 </p>
                 <p className="lg:text-lg text-gray-400">
-                Lorem ipsum 15 
+                    19 Nguyen Trai, Dong Da, Hanoi
                 </p>
             </div>
             <div className="w-full lg:w-1/5 px-3">

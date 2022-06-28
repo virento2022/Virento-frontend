@@ -1,7 +1,7 @@
 import Image from "next/image"
+import Link from "next/link"
 
 import Bicycle from '../../public/assets/Bicycle.png'
-import Green from '../../public/assets/Green.png'
 
 const Introduction = () => {
     return(
@@ -13,7 +13,11 @@ const Introduction = () => {
                             <h3 className="text-center md:text-left lg:text-2xl text-green-600 sm:pb-2 mb-2 font-bold">VIRENTO (n.)</h3>
                             <p className="text-left lg:text-2xl sm:pb-2 leading-relaxed">Nền tảng cho thuê trực tuyến tại Việt Nam</p>
                             <p className="text-left lg:text-2xl sn:pb-2 leading-relaxed">Bạn cần gì, chúng tôi có đó.</p>
-                            <button className="block my-4 w-full py-4 px-6 mb-2 md:w-auto text-xs text-white font-semibold leading-none bg-green-600 hover:bg-green-700 rounded">Trải nghiệm</button>
+                            <button className="block my-4 w-full py-4 px-6 mb-2 md:w-auto text-xs text-white font-semibold leading-none bg-green-600 hover:bg-green-700 rounded">
+                                <Link href="/product">
+                                    Trải nghiệm
+                                </Link>                                
+                            </button>
                         </div>
                     </div>
                     <div className="w-full md:w-1/2 px-3">
