@@ -6,7 +6,7 @@ import Heart from '../../public/assets/Heart.png'
 
 const Pros = () => {
     return(
-        <section className="py-20">
+        <section className="pt-10 pb-20">
             <div className="container px-4 mx-auto">
                 <div className="flex flex-wrap -mx-3 -mb-6 text-center text-green-600">
                     <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">

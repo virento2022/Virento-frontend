@@ -4,10 +4,10 @@ import Link from "next/link";
 import FacebookLogo from "../../public/assets/icons/facebook-green.svg";
 import TwitterLogo from "../../public/assets/icons/twitter-green.svg";
 import InstagramLogo from "../../public/assets/icons/instagram-green.svg";
-
+import Virento from "../../public/assets/logo.png"
 export const Footer = () => {
   return (
-    <section className="py-20">
+    <section className="pt-20 pb-10">
         <div className="container px-4 mx-auto">
             <div className="flex flex-wrap mb-12 lg:mb-20 -mx-3 text-center lg:text-left">
             <div className="w-full lg:w-1/5 px-3 mb-6 lg:mb-0">
@@ -16,7 +16,7 @@ export const Footer = () => {
                     className="inline-block mx-auto lg:mx-0 text-3xl font-semibold leading-none"
                     href="#"
                 >
-                    <img className="h-40" src="https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/281736314_103646749028066_8874301070538351434_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=FGwgDV4PoKwAX_W76hT&_nc_ht=scontent.fhan3-3.fna&oh=00_AT8MSpv11wwOd_ZeVjc8BDAcZu9aJH9hczxYLK5QhxaTog&oe=62BC6A17" alt="" />
+                    <Image width={200} height={200} src={Virento} alt=""/>
 
                 </a>
                 </Link>
@@ -27,7 +27,7 @@ VIRENTO không chỉ dừng lại ở việc mang tới lợi ích cho chính nh
                 </p>
             </div>
             <div className="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">
-                <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-gray-800">
+                <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-green-600">
                 Office
                 </p>
                 <p className="lg:text-lg text-gray-400">
@@ -35,7 +35,7 @@ VIRENTO không chỉ dừng lại ở việc mang tới lợi ích cho chính nh
                 </p>
             </div>
             <div className="w-full lg:w-1/5 px-3">
-                <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-gray-800">
+                <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-green-600">
                 Contacts
                 </p>
                 <p className="lg:text-lg text-gray-400">info@virento.space</p>

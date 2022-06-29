@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { useUser } from '@auth0/nextjs-auth0';
 
+import Virento from "../../public/assets/logo.png"
+
 function Navbar() {
   const [navBar, setNavBar] = useState(false)
   const { user } = useUser();
@@ -10,17 +12,17 @@ function Navbar() {
   return (
     <section className="relative bg-white overflow-hidden">
       <nav className="relative flex px-16 justify-between bg-transparent border-b">
-        <div className="pr-14 py-8 lg:border-r">
+        <div className="pr-14 py-4 lg:border-r">
           <Link href="/">
             <a
-              className="inline-block text-xl text-white font-medium font-heading"
+              className="inline-block"
               href="#"
             >
-              <img className="h-8" src="https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/281736314_103646749028066_8874301070538351434_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=FGwgDV4PoKwAX_W76hT&_nc_ht=scontent.fhan3-3.fna&oh=00_AT8MSpv11wwOd_ZeVjc8BDAcZu9aJH9hczxYLK5QhxaTog&oe=62BC6A17" alt="" />
+              <Image width={100} height={100} src={Virento} alt=""/>            
             </a>
           </Link>
         </div>
-        <div className="hidden lg:flex items-center ml-10 xl:ml-0 py-8 xl:absolute xl:top-1/2 xl:left-1/2 xl:transform xl:-translate-y-1/2 xl:-translate-x-1/2">
+        <div className="hidden lg:flex items-center ml-10 xl:ml-0 py-4 xl:absolute xl:top-1/2 xl:left-1/2 xl:transform xl:-translate-y-1/2 xl:-translate-x-1/2">
           <ul className="flex justify-center font-medium items-center">
             <li className="mr-12">
               <Link href="/product">
@@ -51,8 +53,6 @@ function Navbar() {
           </ul>
         </div>
         <div className="hidden lg:flex ml-auto items-center">
-
-
           {user ? (<Link href="/api/auth/logout">
             <a
               className="inline-flex mr-8 items-center rounded-full text-green-600 hover:underline"
