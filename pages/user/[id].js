@@ -8,11 +8,9 @@ import { useEffect } from 'react';
 const ProfilePage = () => {
     const router = useRouter()
     const { user } = useUser()
-    if (!user) {
-        useEffect(() => {
-            router.push(`/`)
-        }, [router.push])
-    }
+    useEffect(() => {
+        if (!user) router.push("/")
+    }, [])
     return(
         <>
             <Navbar/>
