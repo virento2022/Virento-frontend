@@ -3,11 +3,16 @@ import Navbar from "../../components/Navbar/Navbar"
 import ProfileDetails from "../../components/Profile/ProfileDetails"
 import { useUser } from '@auth0/nextjs-auth0';
 import { useRouter } from "next/router";
+import { useEffect } from 'react';
 
 const ProfilePage = () => {
     const router = useRouter()
     const { user } = useUser()
-    if (!user) router.push(`/`)
+    if (!user) {
+        useEffect(() => {
+            router.push(`/`)
+        }, [router.push])
+    }
     return(
         <>
             <Navbar/>
