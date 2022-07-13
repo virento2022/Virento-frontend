@@ -22,7 +22,7 @@ function Navbar() {
             </a>
           </Link>
         </div>
-        <div className="hidden lg:flex items-center ml-10 xl:ml-0 py-4 xl:absolute xl:top-1/2 xl:left-1/2 xl:transform xl:-translate-y-1/2 xl:-translate-x-1/2">
+        <div className="hidden xl:flex items-center ml-10 xl:ml-0 py-4 xl:absolute xl:top-1/2 xl:left-1/2 xl:transform xl:-translate-y-1/2 xl:-translate-x-1/2">
           <ul className="flex justify-center font-medium items-center">
             <li className="mr-12">
               <Link href="/product">
@@ -52,74 +52,55 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="hidden lg:flex ml-auto items-center">
+        <div className="hidden xl:flex ml-auto items-center">
+    
           {user ? (<Link href="/api/auth/logout">
-            <a
-              className="inline-flex mr-8 items-center rounded-full text-green-600 hover:underline"
-              href="#"
-            >
-              <span className="mr-2 text-sm font-heading">Log Out</span>
-              <svg
-                width="16"
-                height="10"
-                viewBox="0 0 16 10"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+              <a
+                className="inline-flex items-center justify-center py-3 px-6 rounded-full bg-green-500 hover:bg-green-600 transform duration-200"
+                href="#"
               >
-                <path
-                  d="M12.01 3.95383H0V6.04614H12.01V9.1846L16 4.99998L12.01 0.815369V3.95383Z"
-                  fill="#046c31"
-                ></path>
-              </svg>
-            </a>
+                <svg
+                  className="mr-3"
+                  width="16"
+                  height="9"
+                  viewBox="0 0 16 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.01 3.16553H0V5.24886H12.01V8.37386L16 4.20719L12.01 0.0405273V3.16553Z"
+                    fill="white"
+                  ></path>
+                </svg>
+                <span className="text-xs text-white font-heading">Log Out</span>
+              </a>
           </Link>) : (
               <Link href="/api/auth/login">
-            <a
-              className="inline-flex mr-8 items-center rounded-full text-green-600 hover:underline"
-              href="#"
-            >
-              <span className="mr-2 text-sm font-heading">Sign in</span>
-              <svg
-                width="16"
-                height="10"
-                viewBox="0 0 16 10"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12.01 3.95383H0V6.04614H12.01V9.1846L16 4.99998L12.01 0.815369V3.95383Z"
-                  fill="#046c31"
-                ></path>
-              </svg>
-            </a>
-          </Link>
+                  <a
+                    className="inline-flex items-center justify-center py-3 px-6 rounded-full bg-green-500 hover:bg-green-600 transform duration-200"
+                    href="#"
+                  >
+                    <svg
+                      className="mr-3"
+                      width="16"
+                      height="9"
+                      viewBox="0 0 16 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12.01 3.16553H0V5.24886H12.01V8.37386L16 4.20719L12.01 0.0405273V3.16553Z"
+                        fill="white"
+                      ></path>
+                    </svg>
+                    <span className="text-xs text-white font-heading">Sign In</span>
+                  </a>
+              </Link>
           )}
 
-
-          <Link href="/register">
-            <a
-              className="inline-flex items-center justify-center py-3 px-6 rounded-full bg-green-500 hover:bg-green-600 transform duration-200"
-              href="#"
-            >
-              <svg
-                className="mr-3"
-                width="16"
-                height="9"
-                viewBox="0 0 16 9"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12.01 3.16553H0V5.24886H12.01V8.37386L16 4.20719L12.01 0.0405273V3.16553Z"
-                  fill="white"
-                ></path>
-              </svg>
-              <span className="text-xs text-white font-heading">Sign Up</span>
-            </a>
-          </Link>
         </div>
         <button
-          className="navbar-burger lg:hidden self-center"
+          className="navbar-burger xl:hidden self-center"
           onClick={() => setNavBar(!navBar)}
         >
           <svg
@@ -231,53 +212,56 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          <Link href="/register">
-            <a
-              className="flex mb-8 items-center justify-center py-4 px-6 rounded-full bg-green-500 hover:bg-green-600 transform duration-200"
-              href="#"
-            >
-              <svg
-                className="mr-3"
-                width="16"
-                height="9"
-                viewBox="0 0 16 9"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12.01 3.16553H0V5.24886H12.01V8.37386L16 4.20719L12.01 0.0405273V3.16553Z"
-                  fill="white"
-                ></path>
-              </svg>
-              <span className="text-sm text-white font-medium uppercase tracking-wider">
-                Sign Up
-              </span>
-            </a>
-          </Link>
-
-          <Link href="/api/auth/login">
-              <a
-                className="flex mb-8 items-center justify-center py-4 px-6 hover:underline"
-                href="#"
-              >
-                <svg
-                  className="mr-3"
-                  width="16"
-                  height="9"
-                  viewBox="0 0 16 9"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
+          {user ? (
+              <Link href="/api/auth/logout">
+                <a
+                  className="flex mb-8 items-center justify-center py-4 px-6 rounded-full bg-green-500 hover:bg-green-600 transform duration-200"
+                  href="#"
                 >
-                  <path
-                    d="M12.01 3.16553H0V5.24886H12.01V8.37386L16 4.20719L12.01 0.0405273V3.16553Z"
-                    fill="#046c31"
-                  ></path>
-                </svg>
-                <span className="text-sm text-black font-medium uppercase tracking-wider">
-                  Log in
-                </span>
-              </a>
-          </Link>
+                  <svg
+                    className="mr-3"
+                    width="16"
+                    height="9"
+                    viewBox="0 0 16 9"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.01 3.16553H0V5.24886H12.01V8.37386L16 4.20719L12.01 0.0405273V3.16553Z"
+                      fill="white"
+                    ></path>
+                  </svg>
+                  <span className="text-sm text-white font-medium uppercase tracking-wider">
+                    Log Out
+                  </span>
+                </a>
+              </Link>
+          ) : (
+              <Link href="/api/auth/login">
+                <a
+                  className="flex mb-8 items-center justify-center py-4 px-6 rounded-full bg-green-500 hover:bg-green-600 transform duration-200"
+                  href="#"
+                >
+                  <svg
+                    className="mr-3"
+                    width="16"
+                    height="9"
+                    viewBox="0 0 16 9"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.01 3.16553H0V5.24886H12.01V8.37386L16 4.20719L12.01 0.0405273V3.16553Z"
+                      fill="white"
+                    ></path>
+                  </svg>
+                  <span className="text-sm text-white font-medium uppercase tracking-wider">
+                    Sign In
+                  </span>
+                </a>
+              </Link>
+          )}
+          
 
           <p className="text-sm text-gray-500">
             All rights reserved ©Virento 2022
