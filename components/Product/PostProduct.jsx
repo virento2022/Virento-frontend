@@ -12,7 +12,7 @@ const PostProduct = () => {
                             <br />
                             <label for="hinhAnh" className="">Lựa chọn hình ảnh</label>
                             <br />
-                            <form className="my-3">
+                            <form className="my-3 w-20">
                                 <label for="form__input">
                                     <input type="file" id="form__input" name="chonAnh" className="hidden"/>
                                     <img src="./assets/plus-icon.png" alt="ảnh" className="w-24 hover:opacity-80 hover:cursor-pointer"/>
