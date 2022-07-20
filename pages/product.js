@@ -53,6 +53,11 @@ const Product = ( {products} ) => {
                         View More Products
                     </button>
                     </div>
+                    <div className="font-semibold">
+                        <PostProduct>
+
+                        </PostProduct>
+                    </div>  
                 </div>
             </section>
             <Footer/>
