@@ -3,7 +3,7 @@ const PostProduct = () => {
     return(
         <div className="mx-32 my-12">
             <form action="#">
-                    <fieldset className="border-emerald-200 border-2 rounded-2xl text-green-600 text-xl drop-shadow-xl">
+                    <div className="border-emerald-200 border-2 rounded-2xl text-green-600 text-xl drop-shadow-xl">
                         <div className="mx-16">
                             <legend className="mx-32 my-4 p-1 text-3xl text-center font-bold">Đăng tải sản phẩm</legend>
                             <label for="tenSP" className="">Tên Sản Phẩm</label>
@@ -56,11 +56,11 @@ const PostProduct = () => {
                             <label> Tôi đồng ý với các <a href="" className="text-green-400 underline">điều khoản</a> của VIRENTO.</label>
                             <br />
                             <div className="flex justify-center">
-                                <input type="submit" value="Submit" className="my-4 py-4 px-12 bg-green-300 text-green-800 border-2 hover:bg-green-500 hover:cursor-pointer rounded-full"></input>
+                                <button className="my-4 py-4 px-12 bg-green-300 text-green-800 border-2 hover:bg-green-500 hover:cursor-pointer rounded-full">Đăng sản phẩm</button>
                             </div>                            
 
                         </div>
-                    </fieldset>
+                    </div>
                 
 
             </form>
