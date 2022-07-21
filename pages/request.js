@@ -2,16 +2,22 @@ import Navbar from "../components/Navbar/Navbar";
 import { Footer } from "../components/Footer/Footer";
 import baseUrl from "../utils/baseUrl";
 import RequestCard from "../components/Request/RequestCard";
+import SingleRequestCard from "../components/Request/SingleRequestCard";
 
 export const getStaticProps = async () => {
-    const res = await fetch(`${baseUrl}/request`)
-    const requests = await res.json();
-    return {
-        props: {requests}
-    }
-}
 
-export default function Request(    {requests}  ) {
+    const res = await fetch(`${baseUrl}/request`);
+    const requests = await res.json();
+
+    return {
+        props: {requests},
+    };
+};
+
+export default function Request( {requests} ) {
+
+    console.log(requests)
+
     return (
         <>
             <Navbar />
@@ -30,7 +36,7 @@ export default function Request(    {requests}  ) {
                                     key={request.id}
                                     userFrom={request.userfrom}
                                     userTo={request.userto}
-                                    productId={request.productid}
+                                    
                                 />
                             ))}
                         </div>
