@@ -3,5 +3,8 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/api/auth/[...auth0]": "pages/api/auth/[...auth0].js"
+  "/request": "pages/request.js",
+  "/api/auth/[...auth0]": "pages/api/auth/[...auth0].js",
+  "/product": "pages/product.js",
+  "/about-us": "pages/about-us.js"
 }

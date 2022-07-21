@@ -41,7 +41,8 @@ const Product = ( {products} ) => {
                                 category={product.category}
                                 description={product.description}
                                 price={product.price}
-                                id={product.id}
+                                images={product.images}
+                                keyword={products.keyword}
                             />
                         ))}
                     </div>

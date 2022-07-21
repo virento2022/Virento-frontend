@@ -43,10 +43,17 @@ function Navbar() {
                 Services
               </a>
             </li>
-            <li>
+            <li className="mr-12">
               <Link href="/contact">
                 <a className="text-black-500 hover:text-gray-400" href="#">
                   Contact
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/request">
+                <a className="text-black-500 hover:text-gray-400" href="#">
+                  Request
                 </a>
               </Link>
             </li>
@@ -142,71 +149,15 @@ function Navbar() {
                 <a className="flex items-center" href="#">
                   <span className="mr-3 text-lg text-black">Products</span>
                   <svg
-                    width="16"
-                    height="9"
-                    viewBox="0 0 16 9"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M12.01 3.48047H0V5.57278H12.01V8.71124L16 4.52663L12.01 0.34201V3.48047Z"
-                      fill="#046c31"
-                    ></path>
-                  </svg>
-                </a>
-              </Link>
-            </li>
-            <li className="mb-10">
-              <Link href="/about-us">
-                  <a className="flex items-center" href="#">
-                    <span className="mr-3 text-lg text-black">About us</span>
-                    <svg
-                      width="16"
-                      height="9"
-                      viewBox="0 0 16 9"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M12.01 3.48047H0V5.57278H12.01V8.71124L16 4.52663L12.01 0.34201V3.48047Z"
-                        fill="#046c31"
-                      ></path>
-                    </svg>
-                  </a>
-              </Link> 
-            </li>
-            <li className="mb-10">
-              <a className="flex items-center" href="#">
-                <span className="mr-3 text-lg text-black">Services</span>
-                <svg
-                  width="16"
-                  height="9"
-                  viewBox="0 0 16 9"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12.01 3.48047H0V5.57278H12.01V8.71124L16 4.52663L12.01 0.34201V3.48047Z"
-                    fill="#046c31"
-                  ></path>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <Link href="/contact">
-                <a className="flex items-center" href="#">
-                  <span className="mr-3 text-lg text-black">Contact</span>
-                  <svg
-                    width="16"
-                    height="9"
-                    viewBox="0 0 16 9"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path
-                      d="M12.01 3.48047H0V5.57278H12.01V8.71124L16 4.52663L12.01 0.34201V3.48047Z"
-                      fill="#046c31"
-                    ></path>
+                      <rect y="6" width="24" height="2" fill="green"></rect>
+                      <rect y="11" width="24" height="2" fill="green"></rect>
+                      <rect y="16" width="24" height="2" fill="green"></rect>
                   </svg>
                 </a>
               </Link>
@@ -263,13 +214,13 @@ function Navbar() {
           )}
           
 
-          <p className="text-sm text-gray-500">
-            All rights reserved ©Virento 2022
-          </p>
-        </nav>
-      </div>
-    </section>
-  )
+                  <p className="text-sm text-gray-500">
+                      All rights reserved ©Virento 2022
+                  </p>
+              </nav>
+          </div>
+      </section>
+  );
 }
 
 export default Navbar

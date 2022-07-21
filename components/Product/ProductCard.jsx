@@ -1,6 +1,7 @@
 import Link from "next/link"
 
 const ProductCard = (props) => {
+
     return(
         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-3">
             <div className="p-6 border rounded-xl">
@@ -12,7 +13,7 @@ const ProductCard = (props) => {
                     
                     <img
                     className="w-full h-full object-cover rounded-lg"
-                    src="https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/281736314_103646749028066_8874301070538351434_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=FGwgDV4PoKwAX_W76hT&_nc_ht=scontent.fhan3-3.fna&oh=00_AT8MSpv11wwOd_ZeVjc8BDAcZu9aJH9hczxYLK5QhxaTog&oe=62BC6A17"
+                        src={ props.images[0] }
                     alt="" 
                     />
                 </div>
