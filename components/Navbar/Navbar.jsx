@@ -50,10 +50,17 @@ function Navbar() {
                 </a>
               </Link>
             </li>
-            <li>
+            <li className='mr-12'>
               <Link href="/request">
                 <a className="text-black-500 hover:text-gray-400" href="#">
                   Request
+                </a>
+              </Link>
+            </li>
+             <li>
+              <Link href="/post">
+                <a className="text-black-500 hover:text-gray-400" href="#">
+                  Đăng sản phẩm
                 </a>
               </Link>
             </li>

@@ -2,6 +2,7 @@ import ProductCard from "../components/Product/ProductCard";
 import baseUrl from "../utils/baseUrl"
 import { Footer } from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
+import PostProduct from "../components/Product/PostProduct";
 
 export const getStaticProps = async () => {
     const res = await fetch(`${baseUrl}/items`)
@@ -54,6 +55,7 @@ const Product = ( {products} ) => {
                         View More Products
                     </button>
                     </div>
+
                 </div>
             </section>
             <Footer/>
