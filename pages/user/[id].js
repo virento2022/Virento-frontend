@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 const ProfilePage = () => {
     const router = useRouter()
     const { user } = useUser()
+
     useEffect(() => {
         if (!user) router.push("/")
     }, [])
@@ -15,7 +16,7 @@ const ProfilePage = () => {
         <>
             <Navbar/>
             <div className="max-w-screen-xl mx-auto">
-                <ProfileDetails/>
+                <ProfileDetails />
             </div>
             <Footer/>
         </>
