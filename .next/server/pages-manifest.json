@@ -2,15 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-<<<<<<< HEAD
-  "/api/auth/[...auth0]": "pages/api/auth/[...auth0].js",
   "/post": "pages/post.js",
-  "/product": "pages/product.js",
-  "/product/[id]": "pages/product/[id].js",
-  "/": "pages/index.js"
-=======
-  "/user/[id]": "pages/user/[id].js",
-  "/": "pages/index.js",
   "/api/auth/[...auth0]": "pages/api/auth/[...auth0].js"
->>>>>>> 58091d7c684505c6555aebfc70b64648b7bb69d2
 }
