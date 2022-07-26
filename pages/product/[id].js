@@ -39,6 +39,7 @@ const ProductDetail = ( {product} ) => {
                     category={product.category}
                     description={product.description}
                     price={product.price}
+                    images = {product.images}
                 />
                 <Footer/>
             </div>  
