@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import baseUrl from "../../utils/baseUrl";
 
 const Form = () => {
     const [state, setState] = React.useState({
@@ -33,7 +34,7 @@ const Form = () => {
 
         // Use fetch or axios to submit the form
         await axios
-            .post("http://localhost:5000/items", formData)
+            .post(`${baseUrl}/items`, formData)
             .then(({ data }) => {
                 const { redirect } = data;
                 // Redirect used for reCAPTCHA and/or thank you page
