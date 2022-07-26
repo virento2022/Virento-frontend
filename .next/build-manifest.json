@@ -30,6 +30,7 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+<<<<<<< HEAD
     "/post": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -44,6 +45,12 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/product/[id].js"
+=======
+    "/user/[id]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/user/[id].js"
+>>>>>>> 58091d7c684505c6555aebfc70b64648b7bb69d2
     ]
   },
   "ampFirstPages": []
