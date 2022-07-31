@@ -20,19 +20,19 @@ const SingleProductPage = (props) => {
                     <div class="w-full lg:w-4/12 grid lg:grid-cols-1 sm:grid-cols-4 grid-cols-2 gap-6">
                         <div class="bg-white flex justify-center items-center py-4">
                             <img
-                                src={props.images[1]}
+                                src={props.images[0]}
                                 alt="Wooden chair - preview 1"
                             />
                         </div>
                         <div class="bg-white flex justify-center items-center py-4">
                             <img
-                                src={props.images[2]}
+                                src={props.images[0]}
                                 alt="Wooden chair - preview 2"
                             />
                         </div>
                         <div class="bg-white flex justify-center items-center py-4">
                             <img
-                                src={props.images[3]}
+                                src={props.images[0]}
                                 alt="Wooden chair- preview 3"
                             />
                         </div>

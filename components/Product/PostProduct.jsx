@@ -45,6 +45,8 @@ const Form = () => {
                 window.location.href = e.response.data.redirect;
             });
         
+        
+        
     }
 
     return (
