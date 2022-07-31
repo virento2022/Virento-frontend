@@ -1,3 +1,4 @@
 # local env file
 .env.local
 /node_modules
+/out

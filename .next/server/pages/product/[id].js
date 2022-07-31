@@ -59,21 +59,21 @@ const SingleProductPage = (props)=>{
                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     class: "bg-white flex justify-center items-center py-4",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                        src: props.images[1],
+                                        src: props.images[0],
                                         alt: "Wooden chair - preview 1"
                                     })
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     class: "bg-white flex justify-center items-center py-4",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                        src: props.images[2],
+                                        src: props.images[0],
                                         alt: "Wooden chair - preview 2"
                                     })
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     class: "bg-white flex justify-center items-center py-4",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                        src: props.images[3],
+                                        src: props.images[0],
                                         alt: "Wooden chair- preview 3"
                                     })
                                 })
