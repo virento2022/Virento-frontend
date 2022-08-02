@@ -37,6 +37,7 @@ const Product = ( {products} ) => {
                     <div className="flex flex-wrap -m-3 mb-16">
                         {products.map((product) => (
                             <ProductCard
+                                id = {product.id}
                                 key={product.id}
                                 title={product.title}
                                 category={product.category}
