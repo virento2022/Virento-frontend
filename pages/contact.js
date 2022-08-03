@@ -16,7 +16,7 @@ export default function About() {
                         <Image src={FacebookLogo} height={40} width={40} alt="" />
                         <p className="text-sm md:text-md text-gray-400">Facebook</p>
                         <p><a href="https://www.facebook.com/virento.space" target="_blank" className="hover:underline underline-offset-2">Fanpage </a> 
-                        / <a href="https://www.facebook.com/groups/595053052004065" targer="_blank" className="hover:underline underline-offset-2"> Group</a></p>
+                        / <a href="https://www.facebook.com/groups/595053052004065" target="_blank" className="hover:underline underline-offset-2"> Group</a></p>
                     </div>
                 </div>
                 <div className="flex flex-wrap text-center">

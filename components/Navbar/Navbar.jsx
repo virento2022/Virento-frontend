@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <section className="relative bg-white overflow-hidden">
-      <nav className="relative flex px-16 justify-between bg-transparent border-b">
+      <nav className="relative flex justify-between bg-transparent border-b">
         <div className="pr-14 py-4 lg:border-r">
           <Link href="/">
             <a className="inline-block" href="#">
@@ -33,7 +33,7 @@ function Navbar() {
               <li className="mr-12">
                 <Link href="/request">
                   <a className="text-black-500 hover:text-gray-400" href="#">
-                    Request
+                    Đơn hàng
                   </a>
                 </Link>
               </li>
@@ -53,7 +53,7 @@ function Navbar() {
               <li className="mr-12">
                 <Link href={`user/${user.sub}`}>
                   <a className="text-black-500 hover:text-gray-400" href="#">
-                    Profile
+                    Trang cá nhân
                   </a>
                 </Link>
               </li>
@@ -94,7 +94,7 @@ function Navbar() {
                     fill="white"
                   ></path>
                 </svg>
-                <span className="text-xs text-white font-heading">Log Out</span>
+                <span className="text-xs text-white font-heading">Đăng xuất</span>
               </a>
             </Link>
           ) : (
