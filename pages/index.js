@@ -4,7 +4,6 @@ import Categories from "../components/Homepage/Categories/Categories"
 import Navbar from "../components/Navbar/Navbar"
 import { Footer } from "../components/Footer/Footer"
 import Partners from "../components/Homepage/Partners"
-import Testimonial from "../components/Homepage/Testimonial"
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
         <Introduction/>
         <Pros/>
         <Categories/>
-        <Testimonial/>
         <Partners/>        
         <Footer/>
       </div>

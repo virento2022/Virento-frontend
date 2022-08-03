@@ -28,20 +28,6 @@ function Navbar() {
                 </a>
               </Link>
             </li>
-            <li className="mr-12">
-              <Link href="/about-us">
-                <a className="text-black-500 hover:text-gray-400" href="#">
-                  Giới thiệu
-                </a>
-              </Link>
-            </li>
-            <li className="mr-12">
-              <Link href="/contact">
-                <a className="text-black-500 hover:text-gray-400" href="#">
-                  Liên hệ
-                </a>
-              </Link>
-            </li>
             {/* check if user authenticated, if yes, show link, if not, do not show link */}
             {user ? (
               <li className="mr-12">
@@ -72,6 +58,20 @@ function Navbar() {
                 </Link>
               </li>
             ) : null}
+            <li className="mr-12">
+              <Link href="/about-us">
+                <a className="text-black-500 hover:text-gray-400" href="#">
+                  Giới thiệu
+                </a>
+              </Link>
+            </li>
+            <li className="mr-12">
+              <Link href="/contact">
+                <a className="text-black-500 hover:text-gray-400" href="#">
+                  Liên hệ
+                </a>
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="hidden xl:flex ml-auto items-center">
@@ -116,7 +116,7 @@ function Navbar() {
                     fill="white"
                   ></path>
                 </svg>
-                <span className="text-xs text-white font-heading">Sign In</span>
+                <span className="text-xs text-white font-heading">Đăng ký / Đăng nhập</span>
               </a>
             </Link>
           )}
@@ -202,7 +202,7 @@ function Navbar() {
                   ></path>
                 </svg>
                 <span className="text-sm text-white font-medium uppercase tracking-wider">
-                  Log Out
+                  Đăng xuất
                 </span>
               </a>
             </Link>

@@ -8,6 +8,7 @@ import SDG8 from "../public/assets/SDG-8.svg"
 import SDG11 from "../public/assets/SDG-11.svg"
 import SDG12 from "../public/assets/SDG-12.svg"
 import SDG13 from "../public/assets/SDG-13.svg"
+import hand from "../public/assets/hand.svg"
 
 import LP from "../public/assets/LP.png"
 import DQV from "../public/assets/DQV.png"
@@ -15,6 +16,13 @@ import PMH from "../public/assets/PMH.png"
 import NNA from "../public/assets/NNA.png"
 import HA from "../public/assets/NHA.png"
 import NDD from "../public/assets/NDD.png"
+
+import AD1 from "../public/assets/Mrs_ThuHang.png"
+import AD2 from "../public/assets/Mr_SonCong.png"
+import AD3 from "../public/assets/Mrs_Quynh.png"
+import AD4 from "../public/assets/Mr_DinhDat.png"
+import AD5 from "../public/assets/Mrs_LinhChi.png"
+import AD6 from "../public/assets/Mr_TatThang.png"
 
 import DKS from "../public/assets/DKS_logo.jpg"
 import ECO from "../public/assets/ECO_logo.png"
@@ -80,14 +88,41 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="container px-8 mx-auto mt-48 bg-[#B9DCAC]">
-                        <div className="bg-[#B9DCAC]">
-                            <h1>Đến với VIRENTO,</h1>
-                            <p>
-                                <span>Người cho thuê</span> có thể kiếm thêm thu nhập từ việc gia tăng lợi ích của những đồ vật ít dùng và gia tăng không gian sống.
+                </section>
+            </div>
+            <div className="mx-auto bg-[#E4F2E7]">
+                <section className="px-12 md:px-20 py-16 leading-loose">
+                    <div className="container px-8 mx-auto">
+                        <div className="">
+                            <h1 className="font-bold text-2xl md:text-4xl text-gray-800">Đến với VIRENTO,</h1>
+                            <p className="text-lg">
+                                <span className="font-bold text-xl text-gray-800">Người cho thuê</span> có thể kiếm thêm thu nhập từ việc gia tăng <br/> lợi ích của những đồ vật ít dùng và gia tăng không gian sống.
                             </p>
                         </div>
                     </div>
+                </section>
+            </div>
+            <div className="bg-[#1aa939]">
+                <section className="text-center">
+                    <div className="container mx-auto w-full">
+                        <Image src={hand} height={400} />
+                    </div>
+                </section>
+            </div>
+            <div className="mx-auto bg-[#E4F2E7]">
+                <section className="px-12 md:px-20 py-16 text-right leading-loose">
+                    <div className="container px-8 mx-auto">
+                        <div className="">
+                            <h1 className="font-bold text-2xl md:text-4xl text-gray-800">Đồng thời</h1>
+                            <p className="text-lg">
+                                <span className="font-bold text-xl text-gray-800">Người đi thuê</span> sẽ tiết kiệm được tiền bạc, thời gian và <br /> gia tăng sự đa dạng trong vật phẩm sử dụng.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div className="max-w-screen-xl mx-auto">
+                <section className="py-12 md:py-20">
                     <div className="container px-8 mx-auto mt-48">
                         <div>
                             <h1 className="text-4xl md:text-6xl mt-4 font-heading mx-auto text-center">OUR CORE VALUES</h1>
@@ -143,24 +178,24 @@ export default function About() {
                     <div className="container px-8 mx-auto mt-48">
                         <h1 className="text-4xl md:text-6xl mt-4 font-heading mx-auto text-center">OUR ADVISORS</h1>
                         <div className="lg:columns-3 text-lg mt-16 text-center">
-                            <Image src={DQV} height={150} width={150}/>
+                            <Image src={AD1} height={150} width={150}/>
                             <h3>Mrs. Nguyễn Thu Hằng</h3>
-                            <h4 className="text-green-600 font-bold">Description</h4>
-                            <Image src={NNA} height={150} width={150}/>
+                            <h4 className="text-green-600 font-bold mb-6">Description</h4>
+                            <Image src={AD2} height={150} width={150}/>
                             <h3>Mr. Hoàng Sơn Công</h3>
-                            <h4 className="text-green-600 font-bold">Description</h4>
-                            <Image src={HA} height={150} width={150}/>
+                            <h4 className="text-green-600 font-bold mb-6">Description</h4>
+                            <Image src={AD3} height={150} width={150}/>
                             <h3>Mrs. Nguyễn Thị Quỳnh</h3>
-                            <h4 className="text-green-600 font-bold">Description</h4>
-                            <Image src={PMH} height={150} width={150}/>
+                            <h4 className="text-green-600 font-bold mb-6">Description</h4>
+                            <Image src={AD4} height={150} width={150}/>
                             <h3>Mr. Nguyễn Đình Đạt</h3>
-                            <h4 className="text-green-600 font-bold">Description</h4>
-                            <Image src={NDD} height={150} width={150}/>
+                            <h4 className="text-green-600 font-bold mb-6">Description</h4>
+                            <Image src={AD5} height={150} width={150}/>
                             <h3>Mrs. Lương Thị Linh Chi</h3>
-                            <h4 className="text-green-600 font-bold">Description</h4>
-                            <Image src={NDD} height={150} width={150}/>
+                            <h4 className="text-green-600 font-bold mb-6">Description</h4>
+                            <Image src={AD6} height={150} width={150}/>
                             <h3>Mr. Nguyễn Tất Thắng</h3>
-                            <h4 className="text-green-600 font-bold">Description</h4>
+                            <h4 className="text-green-600 font-bold mb-6">Description</h4>
                         </div>
                     </div>
                     <div className="container px-8 mx-auto mt-48">
