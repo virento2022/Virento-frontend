@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useUser } from "@auth0/nextjs-auth0";
 
-import Virento from "../../public/assets/logo.png";
+import Virento from "../../public/assets/logo.svg";
 
 function Navbar() {
   const [navBar, setNavBar] = useState(false);
@@ -20,30 +20,11 @@ function Navbar() {
           </Link>
         </div>
         <div className="hidden xl:flex items-center ml-10 xl:ml-0 py-4 xl:absolute xl:top-1/2 xl:left-1/2 xl:transform xl:-translate-y-1/2 xl:-translate-x-1/2">
-          <ul className="flex justify-center font-medium items-center">
+          <ul className="flex justify-center font-medium text-xl items-center">
             <li className="mr-12">
               <Link href="/product">
                 <a className="text-black-600 hover:text-gray-400" href="#">
-                  Products
-                </a>
-              </Link>
-            </li>
-            <li className="mr-12">
-              <Link href="/about-us">
-                <a className="text-black-500 hover:text-gray-400" href="#">
-                  About us
-                </a>
-              </Link>
-            </li>
-            <li className="mr-12">
-              <a className="text-black-500 hover:text-gray-400" href="#">
-                Services
-              </a>
-            </li>
-            <li className="mr-12">
-              <Link href="/contact">
-                <a className="text-black-500 hover:text-gray-400" href="#">
-                  Contact
+                  Sản phẩm
                 </a>
               </Link>
             </li>
@@ -77,6 +58,20 @@ function Navbar() {
                 </Link>
               </li>
             ) : null}
+            <li className="mr-12">
+              <Link href="/about-us">
+                <a className="text-black-500 hover:text-gray-400" href="#">
+                  Giới thiệu
+                </a>
+              </Link>
+            </li>
+            <li className="mr-12">
+              <Link href="/contact">
+                <a className="text-black-500 hover:text-gray-400" href="#">
+                  Liên hệ
+                </a>
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="hidden xl:flex ml-auto items-center">
@@ -121,7 +116,7 @@ function Navbar() {
                     fill="white"
                   ></path>
                 </svg>
-                <span className="text-xs text-white font-heading">Sign In</span>
+                <span className="text-xs text-white font-heading">Đăng ký / Đăng nhập</span>
               </a>
             </Link>
           )}
@@ -207,7 +202,7 @@ function Navbar() {
                   ></path>
                 </svg>
                 <span className="text-sm text-white font-medium uppercase tracking-wider">
-                  Log Out
+                  Đăng xuất
                 </span>
               </a>
             </Link>

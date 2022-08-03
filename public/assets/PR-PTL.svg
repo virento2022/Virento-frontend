@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 425.64 425.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        font-size: 25px;
+        fill: #4d4d4d;
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-4 {
+        fill: #179d4a;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(47.21 25.61)">
+      <rect class="cls-1" x="44.74" width="250" height="250"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="ui">
+      <g id="our_team" data-name="our team">
+        <g>
+          <text class="cls-2" transform="translate(132.53 302.05)">Phan<tspan class="cls-3" x="56.93" y="0"> </tspan><tspan x="62.63" y="0">Thùy Linh</tspan><tspan class="cls-4"><tspan x="-62.4" y="30">Leader of Public Relations </tspan><tspan x="-3.49" y="60">and Ad</tspan><tspan class="cls-5" x="75.14" y="60">v</tspan><tspan x="87.62" y="60">e</tspan><tspan class="cls-6" x="101.13" y="60">r</tspan><tspan x="110.86" y="60">tising</tspan></tspan></text>
+          <g class="cls-7">
+            <image width="1029" height="1029" transform="scale(0.41)" xlink:href="../../../%E1%BA%A3nh/pr.jpg"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

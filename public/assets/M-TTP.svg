@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 646.52 526.85">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        font-size: 25px;
+        fill: #4d4d4d;
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-5 {
+        fill: #179d4a;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(133.75 117.25)">
+      <rect class="cls-1" x="131.39" width="250" height="250"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="ui">
+      <g id="our_team" data-name="our team">
+        <g>
+          <text class="cls-2" transform="translate(294.72 403.01)"><tspan class="cls-3">T</tspan><tspan class="cls-4" x="14" y="0">r</tspan><tspan x="21.97" y="0">ần</tspan><tspan class="cls-4" x="49.37" y="0"> </tspan><tspan x="55.07" y="0">Thu Phương</tspan><tspan class="cls-5"><tspan x="-18.14" y="30">Leader of Mar</tspan><tspan class="cls-6" x="139" y="30">k</tspan><tspan x="152.11" y="30">eting</tspan></tspan></text>
+          <g class="cls-7">
+            <image width="2484" height="2468" transform="scale(0.21)" xlink:href="../../../%E1%BA%A3nh/mar.JPG"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
