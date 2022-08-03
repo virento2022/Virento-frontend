@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.78 694.81">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        font-size: 25px;
+        fill: #4d4d4d;
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-4 {
+        fill: #179d4a;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(0 238.82)">
+      <rect class="cls-1" x="131.39" width="250" height="250"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="ui">
+      <g id="our_team" data-name="our team">
+        <g>
+          <text class="cls-2" transform="translate(135.67 523.6)">Phan<tspan class="cls-3" x="56.93" y="0"> </tspan><tspan x="62.63" y="0">Thanh Diệu Linh</tspan><tspan class="cls-4"><tspan class="cls-5" x="74.57" y="30">F</tspan><tspan x="88.01" y="30">ounder</tspan><tspan x="-116.77" y="60">Leader of Business and Human Resou</tspan><tspan class="cls-6" x="309.91" y="60">r</tspan><tspan x="318.8" y="60">ces</tspan></tspan></text>
+          <g class="cls-7">
+            <image width="918" height="1632" transform="translate(60.97) scale(0.43)" xlink:href="../../../%E1%BA%A3nh/leader.jpg"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

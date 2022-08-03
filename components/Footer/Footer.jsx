@@ -4,7 +4,7 @@ import Link from "next/link";
 import FacebookLogo from "../../public/assets/icons/facebook-green.svg";
 import TwitterLogo from "../../public/assets/icons/twitter-green.svg";
 import InstagramLogo from "../../public/assets/icons/instagram-green.svg";
-import Virento from "../../public/assets/logo.png"
+import Virento from "../../public/assets/logo.svg"
 export const Footer = () => {
   return (
     <section className="pt-20 pb-10">
@@ -16,7 +16,7 @@ export const Footer = () => {
                     className="inline-block mx-auto lg:mx-0 text-3xl font-semibold leading-none"
                     href="#"
                 >
-                    <Image width={200} height={200} src={Virento} alt=""/>
+                    <Image width={150} height={150} src={Virento} alt=""/>
 
                 </a>
                 </Link>

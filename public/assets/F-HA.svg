@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.78 658.52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        font-size: 25px;
+        fill: #4d4d4d;
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-4 {
+        fill: #179d4a;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(0 117.25)">
+      <rect class="cls-1" x="131.39" width="250" height="250"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="ui">
+      <g id="our_team" data-name="our team">
+        <g>
+          <text class="cls-2" transform="translate(177.27 403.01)">Ngu<tspan class="cls-3" x="45.63" y="0">y</tspan><tspan x="57.3" y="0">ễn Hà An</tspan><tspan class="cls-4"><tspan x="-21.38" y="30">Leader of Finance</tspan></tspan></text>
+          <g class="cls-5">
+            <image width="2700" height="3810" transform="translate(23.06) scale(0.17)" xlink:href="../../../%E1%BA%A3nh/finance.jpg"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

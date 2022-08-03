@@ -19,7 +19,7 @@ const Categories = () => {
     return(
         <>
             <div className="flex flex-col items-center justify-center">
-                <h1 className="lg:text-5xl md:text-4xl text-2xl font-bold leading-10 text-green-600">Shopping Categories</h1>
+                <h1 className="lg:text-5xl md:text-4xl text-2xl font-bold leading-10 text-green-600">Renting Categories</h1>
                 <p className="text-base leading-normal text-center text-gray-600 mt-4 xl:w-1/2 w-10/12">Find out all the categories that you want to rent here!</p>
             </div>
             <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">

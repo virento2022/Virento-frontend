@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 392.66 456.98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        font-size: 25px;
+        fill: #4d4d4d;
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-3 {
+        fill: #179d4a;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(0 87.57)">
+      <rect class="cls-1" x="71.33" width="250" height="250"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="ui">
+      <g id="our_team" data-name="our team">
+        <g>
+          <text class="cls-2" transform="translate(100.09 373.32)">Đặng Quang Vinh<tspan class="cls-3"><tspan x="-25.07" y="30">Leader of</tspan><tspan class="cls-4" x="81.42" y="30"> </tspan><tspan class="cls-5" x="86.91" y="30">T</tspan><tspan x="101.29" y="30">echnology</tspan></tspan></text>
+          <g class="cls-6">
+            <image width="1567" height="2463" transform="translate(73.19) scale(0.17)" xlink:href="../../../%E1%BA%A3nh/tech.jpg"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
