@@ -24,10 +24,10 @@ const Categories = () => {
     return(
         <>
             <div className="flex flex-col items-center justify-center">
-                <h1 className="lg:text-5xl md:text-4xl text-2xl font-bold leading-10 text-green-600">Renting Categories</h1>
-                <p className="text-base leading-normal text-center text-gray-600 mt-4 xl:w-1/2 w-10/12">Find out all the categories that you want to rent here!</p>
+                <h1 className="lg:text-5xl md:text-4xl text-2xl font-bold leading-10 text-green-600">Danh mục sản phẩm</h1>
+                <p className="text-base leading-normal text-center text-gray-600 mt-4 xl:w-1/2 w-10/12"></p>
             </div>
-            <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
+            <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4 mb-12">
                 <div className="w-full relative flex items-center justify-center">
                     <button onClick={goPrev} className="absolute z-30 left-0 ml-10 cursor-pointer">
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
