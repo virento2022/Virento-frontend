@@ -202,10 +202,14 @@ export default function About() {
                         <h1 className="text-4xl md:text-6xl mt-4 mb-16 font-heading mx-auto text-center">OUR KEY PARTNERS</h1>
                         <div className="columns-2">
                             <div className="w-1/2 mx-auto">
-                                <Image src={ECO} height={150} width={215} />
+                                <a href="https://eco.com.vn" target="_blank">
+                                    <Image src={ECO} height={100} width={145} />
+                                </a>
                             </div>
                             <div className="w-1/2 mx-auto">
-                                <Image src={DKS} height={150} width={324}/>
+                                <a href="https://dks-didactic.com" target="_blank">
+                                    <Image src={DKS} height={100} width={216} />
+                                </a>
                             </div>
                         </div>
                     </div>

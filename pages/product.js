@@ -25,11 +25,11 @@ const Product = ( {products} ) => {
                             Virento
                         </span>
                     
-                    <h2 className="text-blueGray-400 mt-8 mb-10 text-4xl font-semibold font-heading">
-                    Giảm thiểu tác hại của chủ nghĩa tiêu dùng (consumerism) tới xã hội và môi trường cùng với VIRENTO - nền tảng thuê đồ online dành cho người Việt. Hãy để chúng tôi đồng hành cùng bạn trên con đường hướng tới tương lai xanh, bạn nhé!
+                    <h2 className="mt-8 mb-10 text-4xl font-semibold font-heading">
+                    VIRENTO – VÌ MỘT LỐI SỐNG BỀN VỮNG
                     </h2>
-                    <p className="text-xl text-blueGray-400">
-                    Chỉ với vài bước đăng kí, bạn đã có thể thuê đồ tại VIRENTO. Còn nếu như bạn có (hơi) nhiều đồ vật ở nhà không dùng đến, trở thành chủ tiệm cho thuê tại VIRENTO sẽ là một sự lựa chọn hoàn hảo. Chần chừ gì nữa, hãy gia nhập cộng đồng của chúng tôi ngay hôm nay!
+                    <p className="text-xl text-gray-400">
+                    Với VIRENTO, bạn không chỉ thuê để dùng mà còn thuê để kiếm tiền. Một cú chạm – Một ngàn lợi ích.
                     </p>
                     </div>
                     <div className="flex flex-wrap -m-3 mb-16">

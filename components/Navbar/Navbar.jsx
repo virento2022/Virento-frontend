@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <section className="relative bg-white overflow-hidden">
-      <nav className="relative flex justify-between bg-transparent border-b">
+      <nav className="relative flex justify-between mx-8 bg-transparent border-b">
         <div className="pr-14 py-4 lg:border-r">
           <Link href="/">
             <a className="inline-block" href="#">

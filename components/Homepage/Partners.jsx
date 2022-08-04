@@ -12,12 +12,15 @@ const Partners = () => {
             <div className="container px-8 mx-auto mt-8">
                 <div className="columns-2 px-20">
                     <div className="w-1/2 mx-auto pl-12">
-                        <Image src={ECO} height={150} width={215} />
+                        <a href="https://eco.com.vn" target="_blank">
+                            <Image src={ECO} height={100} width={145} />
+                        </a>
                     </div>
                     <div className="w-1/2 mx-auto">
-                        <Image src={DKS} height={150} width={324} />
+                        <a href="https://dks-didactic.com" target="_blank">
+                            <Image src={DKS} height={100} width={216} />
+                        </a>
                     </div>
-
                 </div>
             </div>
         </div>
