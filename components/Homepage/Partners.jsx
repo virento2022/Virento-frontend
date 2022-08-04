@@ -11,7 +11,7 @@ const Partners = () => {
             </div>
             <div className="container px-8 mx-auto mt-8">
                 <div className="columns-2 px-20">
-                    <div className="w-1/2 mx-auto pl-12">
+                    <div className="w-1/2 mx-auto pl-20">
                         <a href="https://eco.com.vn" target="_blank">
                             <Image src={ECO} height={100} width={145} />
                         </a>

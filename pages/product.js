@@ -29,7 +29,7 @@ const Product = ( {products} ) => {
                     VIRENTO – VÌ MỘT LỐI SỐNG BỀN VỮNG
                     </h2>
                     <p className="text-xl text-gray-400">
-                    Với VIRENTO, bạn không chỉ thuê để dùng mà còn thuê để kiếm tiền. Một cú chạm – Một ngàn lợi ích.
+                    Với VIRENTO, bạn không chỉ thuê để dùng mà còn thuê để kiếm tiền. <br /> Một cú chạm – Một ngàn lợi ích.
                     </p>
                     </div>
                     <div className="flex flex-wrap -m-3 mb-16">

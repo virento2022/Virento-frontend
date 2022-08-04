@@ -201,7 +201,7 @@ export default function About() {
                     <div className="container px-8 mx-auto mt-48">
                         <h1 className="text-4xl md:text-6xl mt-4 mb-16 font-heading mx-auto text-center">OUR KEY PARTNERS</h1>
                         <div className="columns-2">
-                            <div className="w-1/2 mx-auto">
+                            <div className="w-1/2 mx-auto pl-20">
                                 <a href="https://eco.com.vn" target="_blank">
                                     <Image src={ECO} height={100} width={145} />
                                 </a>
