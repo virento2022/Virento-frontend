@@ -22,16 +22,14 @@ const Product = ( {products} ) => {
                 <div className="container px-4 mx-auto">
                     <div className="max-w-3xl mb-20 mx-auto text-center">
                         <span className="text-xl text-green-600 font-semibold">
-                            Virento Shopping Center
+                            Virento
                         </span>
                     
                     <h2 className="text-blueGray-400 mt-8 mb-10 text-4xl font-semibold font-heading">
-                        Lorem ipsum dolor sit amet consectutar domor at elis
+                    Giảm thiểu tác hại của chủ nghĩa tiêu dùng (consumerism) tới xã hội và môi trường cùng với VIRENTO - nền tảng thuê đồ online dành cho người Việt. Hãy để chúng tôi đồng hành cùng bạn trên con đường hướng tới tương lai xanh, bạn nhé!
                     </h2>
                     <p className="text-xl text-blueGray-400">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan
-                        aliquet orci.
+                    Chỉ với vài bước đăng kí, bạn đã có thể thuê đồ tại VIRENTO. Còn nếu như bạn có (hơi) nhiều đồ vật ở nhà không dùng đến, trở thành chủ tiệm cho thuê tại VIRENTO sẽ là một sự lựa chọn hoàn hảo. Chần chừ gì nữa, hãy gia nhập cộng đồng của chúng tôi ngay hôm nay!
                     </p>
                     </div>
                     <div className="flex flex-wrap -m-3 mb-16">
@@ -53,7 +51,7 @@ const Product = ( {products} ) => {
                         className="px-6 py-4 text-white text-sm font-semibold bg-green-600 hover:bg-green-700 rounded transition duration-200"
                         
                     >
-                        View More Products
+                        Xem thêm
                     </button>
                     </div>
 
