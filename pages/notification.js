@@ -47,7 +47,7 @@ function Request() {
                         </div>
                         <div className="text-center">
                             <button className="px-6 py-4 text-white text-sm font-semibold bg-green-600 hover:bg-green-700 rounded transition duration-200">
-                                Xem thêm đơn hàng
+                                Xem thêm
                             </button>
                         </div>
                     </div>

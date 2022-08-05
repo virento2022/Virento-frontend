@@ -65,26 +65,36 @@ function Request() {
           <div className="container px-4 mx-auto">
             <div className="max-w-3xl mb-20 mx-auto text-center">
               <span className="text-xl text-green-600 font-semibold">
-                Thông báo đơn hàng
+                Đơn hàng của tôi
               </span>
             </div>
             <div className="flex flex-wrap -m-3 mb-16">
-              {requests.map((request) => (
-                <RequestCard
-                  key={request.id}
-                  productID={request.productid}
-                  productTitle={request.producttitle}
-                  userFrom={request.userfrom}
-                  userTo={request.userto}
-                  id={request.id}
-                />
-              ))}
+              {
+                requests.length !== 0 ? (
+                  requests.map((request) => (
+                      <>
+                      <RequestCard
+                          key={request.id}
+                          productID={request.productid}
+                          productTitle={request.producttitle}
+                          userFrom={request.userfrom}
+                          userTo={request.userto}
+                          id={request.id}
+                      />
+                <div className="text-center">
+                  <button className="px-6 py-4 text-white text-sm font-semibold bg-green-600 hover:bg-green-700 rounded transition duration-200">
+                    Xem thêm đơn hàng
+                  </button>
+                </div>
+                </>
+
+                    ))
+                ):(
+                    <div className="text-center">Bạn hiện tại không có yêu cầu cho thuê</div>
+                )
+              }
             </div>
-            <div className="text-center">
-              <button className="px-6 py-4 text-white text-sm font-semibold bg-green-600 hover:bg-green-700 rounded transition duration-200">
-                Xem thêm đơn hàng
-              </button>
-            </div>
+            
           </div>
         </section>
         <Footer />
