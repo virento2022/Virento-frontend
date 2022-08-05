@@ -55,7 +55,7 @@ const RequestCard = (props) => {
                     Đồng ý
                 </button>
                 <button
-                    onClick={decline}
+                    onClick={declineBtn}
                     className="mx-5 my-4 py-4 px-16 bg-red-300 text-green-800 border-2 hover:bg-red-500 hover:cursor-pointer rounded-full"
                 >
                     Từ chối

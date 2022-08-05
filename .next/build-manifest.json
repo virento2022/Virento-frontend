@@ -30,11 +30,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/notification.js"
     ],
-    "/product": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/product.js"
-    ],
     "/request": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
