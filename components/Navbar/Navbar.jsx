@@ -182,11 +182,11 @@ function Navbar() {
               />
             </a>
           </Link>
-          <ul className="mb-32">
-            <li className="mb-10">
-              <Link href="/product">
+          <ul className="mb-10">
+            <li className="mb-4">
+              <Link href="/">
                 <a className="flex items-center" href="#">
-                  <span className="mr-3 text-lg text-black">Products</span>
+                  <span className="mr-3 text-lg text-black hover:text-gray-400">Trang chủ</span>
                   <svg
                     width="24"
                     height="24"
@@ -194,9 +194,119 @@ function Navbar() {
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <rect y="6" width="24" height="2" fill="green"></rect>
-                    <rect y="11" width="24" height="2" fill="green"></rect>
-                    <rect y="16" width="24" height="2" fill="green"></rect>
+                  </svg>
+                </a>
+              </Link>
+            </li>
+            <li className="mb-4">
+              <Link href="/product">
+                <a className="flex items-center" href="#">
+                  <span className="mr-3 text-lg text-black hover:text-gray-400">Sản phẩm</span>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                  </svg>
+                </a>
+              </Link>
+            </li>
+            {user ? (
+              <li className="mb-4">
+                <Link href="/post">
+                  <a className="flex items-center" href="#">
+                    <span className="mr-3 text-lg text-black hover:text-gray-400">Đăng sản phẩm</span>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                    </svg>
+                  </a>
+                </Link>
+              </li>
+            ) : null}
+            {user ? (
+              <li className="mb-4">
+                <Link href="/request">
+                  <a className="flex items-center" href="#">
+                    <span className="mr-3 text-lg text-black hover:text-gray-400">Đơn hàng</span>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                    </svg>
+                  </a>
+                </Link>
+              </li>
+            ) : null}
+            {user ? (
+              <li className="mb-4">
+                <Link href="/notification">
+                  <a className="flex items-center" href="#">
+                    <span className="mr-3 text-lg text-black hover:text-gray-400">Thông báo</span>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                    </svg>
+                  </a>
+                </Link>
+              </li>
+            ) : null}
+            {user ? (
+              <li className="mb-4">
+                <Link href={`user/${user.sub}`}>
+                  <a className="flex items-center" href="#">
+                    <span className="mr-3 text-lg text-black hover:text-gray-400">Trang cá nhân</span>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                    </svg>
+                  </a>
+                </Link>
+              </li>
+            ) : null}
+            <li className="mb-4">
+              <Link href="/about-us">
+                <a className="flex items-center" href="#">
+                  <span className="mr-3 text-lg text-black hover:text-gray-400">Giới thiệu</span>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                  </svg>
+                </a>
+              </Link>
+            </li>
+            <li className="mb-4">
+              <Link href="/contact">
+                <a className="flex items-center" href="#">
+                  <span className="mr-3 text-lg text-black hover:text-gray-400">Liên hệ</span>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                   </svg>
                 </a>
               </Link>
