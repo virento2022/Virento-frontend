@@ -33,7 +33,7 @@ const Product = ({ products }) => {
                                 lợi ích.
                             </p>
                         </div>
-                        <div className="flex flex-wrap -m-3 mb-16">
+                        {/* <div className="flex flex-wrap -m-3 mb-16">
                             {products.map((product) => (
                                 <ProductCard
                                     id={product.id}
@@ -46,7 +46,7 @@ const Product = ({ products }) => {
                                     keyword={products.keyword}
                                 />
                             ))}
-                        </div>
+                        </div> */}
                         <div className="text-center">
                             <button className="px-6 py-4 text-white text-sm font-semibold bg-green-600 hover:bg-green-700 rounded transition duration-200">
                                 Xem thêm
