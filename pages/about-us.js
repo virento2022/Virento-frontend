@@ -151,28 +151,29 @@ export default function About() {
                     </div>
                     <div className="container px-8 mx-auto mt-48">
                         <h1 className="text-4xl md:text-6xl mt-4 font-heading mx-auto text-center">OUR TEAM</h1>
-                        <div className="text-center text-lg mt-12">
+                        <div className="text-center text-lg px-12 mt-12 md:columns-2">
                             <Image src={LP} height={200} width={200}/>
                             <h3>Phan Thanh Diệu Linh</h3>
                             <h4 className="text-green-600 font-bold">Founder</h4>
-                            <h4 className="text-green-600 font-bold">Leader of Business and Human Resources</h4>
+                            <h4 className="text-green-600 font-bold">Giám đốc điều hành (CEO)</h4>
+                            <Image src={HA} height={200} width={200}/>
+                            <h3>Nguyễn Hà An</h3>
+                            <h4 className="text-green-600 font-bold">Co-Founder</h4>
+                            <h4 className="text-green-600 font-bold">Giám đốc Tài chính (CFO)</h4>
                         </div>
-                        <div className="lg:columns-5 text-lg mt-16 text-center">
+                        <div className="lg:columns-4 text-lg mt-16 text-center">
                             <Image src={DQV} height={150} width={150}/>
                             <h3>Đặng Quang Vinh</h3>
-                            <h4 className="text-green-600 font-bold">Leader of Technology</h4>
+                            <h4 className="text-green-600 font-bold">Giám đốc Kỹ thuật (CTO)</h4>
                             <Image src={NNA} height={150} width={150}/>
                             <h3>Nguyễn Nhật Anh</h3>
-                            <h4 className="text-green-600 font-bold">Leader of Marketing</h4>
-                            <Image src={HA} height={150} width={150}/>
-                            <h3>Nguyễn Hà An</h3>
-                            <h4 className="text-green-600 font-bold">Leader of Finance</h4>
+                            <h4 className="text-green-600 font-bold">Giám đốc Marketing (CMO)</h4>
                             <Image src={PMH} height={150} width={150}/>
                             <h3>Phạm Minh Hà</h3>
-                            <h4 className="text-green-600 font-bold">Leader of Public Relations and Advertising</h4>
+                            <h4 className="text-green-600 font-bold">Trưởng phòng Kinh doanh</h4>
                             <Image src={NDD} height={150} width={150}/>
                             <h3>Nguyễn Đức Dũng</h3>
-                            <h4 className="text-green-600 font-bold">Leader of Laws</h4>
+                            <h4 className="text-green-600 font-bold">Trưởng phòng Pháp lý</h4>
                         </div>
                     </div>
                     <div className="container px-8 mx-auto mt-48">
@@ -180,36 +181,32 @@ export default function About() {
                         <div className="lg:columns-3 text-lg mt-16 text-center">
                             <Image src={AD1} height={150} width={150}/>
                             <h3>Mrs. Nguyễn Thu Hằng</h3>
-                            <h4 className="text-green-600 font-bold mb-6">Description</h4>
+                            <h4 className="text-green-600 font-bold mb-6">Tiến sĩ Luật và Tài chính, Giảng viên trường Đại học Ngoại thương</h4>
                             <Image src={AD2} height={150} width={150}/>
                             <h3>Mr. Hoàng Sơn Công</h3>
-                            <h4 className="text-green-600 font-bold mb-6">Description</h4>
+                            <h4 className="text-green-600 font-bold mb-6">Tổng giám đốc Trung tâm Hỗ trợ Khởi nghiệp ngành Bán lẻ, Chuyên gia cao cấp lĩnh vực Khởi nghiệp sáng tạo và Nông nghiệp</h4>
                             <Image src={AD3} height={150} width={150}/>
                             <h3>Mrs. Nguyễn Thị Quỳnh</h3>
-                            <h4 className="text-green-600 font-bold mb-6">Description</h4>
+                            <h4 className="text-green-600 font-bold mb-6">Giám đốc công ty TNHH DKS Vietnam Software Technology</h4>
                             <Image src={AD4} height={150} width={150}/>
                             <h3>Mr. Nguyễn Đình Đạt</h3>
-                            <h4 className="text-green-600 font-bold mb-6">Description</h4>
+                            <h4 className="text-green-600 font-bold mb-6">Nhà sáng lập RNR Academy, Giảng viên trường Đại học Ngoại thương</h4>
                             <Image src={AD5} height={150} width={150}/>
                             <h3>Mrs. Lương Thị Linh Chi</h3>
-                            <h4 className="text-green-600 font-bold mb-6">Description</h4>
+                            <h4 className="text-green-600 font-bold mb-6">Chuyên gia tư vấn Luật, Giảng viên trường Đại học Mở</h4>
                             <Image src={AD6} height={150} width={150}/>
                             <h3>Mr. Nguyễn Tất Thắng</h3>
-                            <h4 className="text-green-600 font-bold mb-6">Description</h4>
+                            <h4 className="text-green-600 font-bold mb-6">Tổng giám đốc công ty tư vấn hiệu quả ECO Vietnam</h4>
                         </div>
                     </div>
                     <div className="container px-8 mx-auto mt-48">
                         <h1 className="text-4xl md:text-6xl mt-4 mb-16 font-heading mx-auto text-center">OUR KEY PARTNERS</h1>
                         <div className="columns-2">
-                            <div className="w-1/2 mx-auto pl-20">
-                                <a href="https://eco.com.vn" target="_blank">
-                                    <Image src={ECO} height={100} width={145} />
-                                </a>
+                            <div className="w-1/2 mx-auto">
+                                <Image src={ECO} height={150} width={215} />
                             </div>
                             <div className="w-1/2 mx-auto">
-                                <a href="https://dks-didactic.com" target="_blank">
-                                    <Image src={DKS} height={100} width={216} />
-                                </a>
+                                <Image src={DKS} height={150} width={324}/>
                             </div>
                         </div>
                     </div>

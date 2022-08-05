@@ -20,7 +20,14 @@ function Navbar() {
           </Link>
         </div>
         <div className="hidden xl:flex items-center ml-10 xl:ml-0 py-4 xl:absolute xl:top-1/2 xl:left-1/2 xl:transform xl:-translate-y-1/2 xl:-translate-x-1/2">
-          <ul className="flex justify-center font-medium text-xl items-center">
+          <ul className="flex justify-center font-medium text-lg items-center">
+            <li className="mr-12">
+              <Link href="/">
+                <a className="text-black-600 hover:text-gray-400" href="#">
+                  Trang chủ
+                </a>
+              </Link>
+            </li>
             <li className="mr-12">
               <Link href="/product">
                 <a className="text-black-600 hover:text-gray-400" href="#">
@@ -29,6 +36,16 @@ function Navbar() {
               </Link>
             </li>
             {/* check if user authenticated, if yes, show link, if not, do not show link */}
+            {user ? (
+              <li className="mr-12">
+                <Link href="/post">
+                  <a className="text-black-500 hover:text-gray-400" href="#">
+                    Đăng sản phẩm
+                  </a>
+                </Link>
+              </li>
+            ) : null}
+            
             {user ? (
               <li className="mr-12">
                 <Link href="/request">
@@ -48,15 +65,7 @@ function Navbar() {
               </li>
             ) : null}
             
-            {user ? (
-              <li className="mr-12">
-                <Link href="/post">
-                  <a className="text-black-500 hover:text-gray-400" href="#">
-                    Đăng sản phẩm
-                  </a>
-                </Link>
-              </li>
-            ) : null}
+            
 
             {user ? (
               <li className="mr-12">
