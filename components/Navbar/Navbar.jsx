@@ -19,8 +19,8 @@ function Navbar() {
             </a>
           </Link>
         </div>
-        <div className="hidden xl:flex items-center ml-10 xl:ml-0 py-4 xl:absolute xl:top-1/2 xl:left-1/2 xl:transform xl:-translate-y-1/2 xl:-translate-x-1/2">
-          <ul className="flex justify-center font-medium text-lg items-center">
+        <div className="hidden xl:flex items-center py-4 xl:absolute xl:top-1/2 xl:left-1/2 xl:transform xl:-translate-y-1/2 xl:-translate-x-1/2">
+          <ul className="flex justify-center font-medium text-md items-center">
             <li className="mr-12">
               <Link href="/">
                 <a className="text-black-600 hover:text-gray-400" href="#">
