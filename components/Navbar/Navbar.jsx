@@ -177,20 +177,41 @@ function Navbar() {
             <li className="mb-10">
               <Link href="/product">
                 <a className="flex items-center" href="#">
-                  <span className="mr-3 text-lg text-black">Products</span>
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect y="6" width="24" height="2" fill="green"></rect>
-                    <rect y="11" width="24" height="2" fill="green"></rect>
-                    <rect y="16" width="24" height="2" fill="green"></rect>
-                  </svg>
+                  <span className="mr-3 text-lg text-black">Sản phẩm</span>
+
                 </a>
               </Link>
+                <Link href="/about-us">
+                <a className="flex items-center" href="#">
+                  <span className="mr-3 text-lg text-black">Giới thiệu</span>
+                </a>
+              </Link>
+              <Link href="/contact">
+                <a className="flex items-center" href="#">
+                  <span className="mr-3 text-lg text-black">Liên hệ</span>
+                </a>
+              </Link>
+              { user ? (
+              <Link href="/notification">
+                <a className="flex items-center" href="#">
+                  <span className="mr-3 text-lg text-black">Thông báo</span>
+                </a>
+              </Link>
+              ) : null}
+              { user ? (
+              <Link href="/request">
+                <a className="flex items-center" href="#">
+                  <span className="mr-3 text-lg text-black"> Đơn Hàng</span>
+                </a>
+              </Link>
+              ) : null}
+              { user ? (
+              <Link href={`user/${user.sub}`}>
+                <a className="flex items-center" href="#">
+                  <span className="mr-3 text-lg text-black">Trang cá nhân</span>
+                </a>
+              </Link>
+                ):null}
             </li>
           </ul>
           {user ? (
