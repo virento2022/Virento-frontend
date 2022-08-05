@@ -2,8 +2,11 @@ import React from "react";
 import axios from "axios";
 import baseUrl from "../../utils/baseUrl";
 import Router from "next/router";
+import { useUser } from "@auth0/nextjs-auth0";
 
 const Form = () => {
+    const { user } = useUser();
+
     const [state, setState] = React.useState({
         title: "",
         category: "",
@@ -11,20 +14,21 @@ const Form = () => {
         condition: "",
         statusItem: true,
         description: "",
-        ownerid: 1,
+        ownerid: "",
         keyword: "",
         file: null,
     });
 
     function handleChange(e) {
         if (e.target.files) {
-            setState({ ...state, [e.target.name]: e.target.files[0] });
+            setState({ ...state, [e.target.name]: e.target.files[0], "ownerid": user.email });
         } else {
             setState({ ...state, [e.target.name]: e.target.value });
         }
     }
 
     async function handleSubmit(e) {
+
         e.preventDefault();
 
         let formData = new FormData();

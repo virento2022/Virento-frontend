@@ -35,8 +35,8 @@ const ProfileDetails = () => {
                   </div>
 
                   <p className="text-sm text-gray-800 pl-3">
-                    We take privacy issues seriously. You can be sure that your
-                    personal data is securely protected.
+                    Chúng tôi rất coi trọng các vấn đề về quyền riêng tư. Bạn có
+                    thể chắc chắn rằng dữ liệu cá nhân được bảo vệ an toàn.
                   </p>
                 </div>
                 <button className="md:block hidden focus:outline-none focus:ring-2 focus:ring-gray-700 rounded">
@@ -63,7 +63,7 @@ const ProfileDetails = () => {
                         className="text-sm leading-none text-gray-800"
                         id="firstName"
                       >
-                        Full Name
+                        Họ và tên
                       </label>
                       <input
                         type="name"
@@ -78,7 +78,7 @@ const ProfileDetails = () => {
                         className="text-sm leading-none text-gray-800"
                         id="lastName"
                       >
-                        Nickname
+                        Tên người dùng
                       </label>
                       <input
                         type="name"
@@ -95,7 +95,7 @@ const ProfileDetails = () => {
                         className="text-sm leading-none text-gray-800"
                         id="emailAddress"
                       >
-                        Email Address
+                        Địa chỉ email
                       </label>
                       <input
                         type="email"
@@ -110,7 +110,7 @@ const ProfileDetails = () => {
                         className="text-sm leading-none text-gray-800"
                         id="phone"
                       >
-                        Phone number
+                        Số điện thoại
                       </label>
                       <input
                         type="name"

@@ -3,20 +3,27 @@ import { Footer } from "../components/Footer/Footer";
 import baseUrl from "../utils/baseUrl";
 import RequestCard from "../components/Request/RequestCard";
 import SingleRequestCard from "../components/Request/SingleRequestCard";
+import { useUser } from "@auth0/nextjs-auth0";
+import React from "react";
+import { useRouter } from "next/router";
+
 
 export const getStaticProps = async () => {
+  // const { user } = useUser;
 
-    const res = await fetch(`${baseUrl}/request`);
-    const requests = await res.json();
+  // console.log(user);
 
-    return {
-        props: {requests},
-    };
+      const res = await fetch(`${baseUrl}/request`);
+      const requests = await res.json();
+
+      return {
+        props: { requests },
+      }
+
 };
 
-export default function Request( {requests} ) {
+function Request({ requests }) {
 
-    console.log(requests)
 
     return (
       <>
@@ -50,3 +57,5 @@ export default function Request( {requests} ) {
       </>
     );
 }
+
+export default Request
