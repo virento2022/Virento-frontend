@@ -10,6 +10,7 @@ const SingleProductPage = (props) => {
     const [stop, setStop] = React.useState(true);
     const [request, setRequest] = React.useState({
       productID: props.id,
+      productTitle: props.title,
       userFrom: "",
       userTo: props.ownerid,
     });

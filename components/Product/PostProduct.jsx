@@ -136,7 +136,7 @@ const Form = () => {
             />
             <button
               type="submit"
-              lassName="my-4 py-4 px-12 bg-green-300 text-green-800 border-2 hover:bg-green-500 hover:cursor-pointer rounded-full"
+              className="my-4 py-4 px-12 bg-green-300 text-green-800 border-2 hover:bg-green-500 hover:cursor-pointer rounded-full"
             >
               Đăng sản phẩm
             </button>

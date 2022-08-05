@@ -72,8 +72,11 @@ function Request() {
               {requests.map((request) => (
                 <RequestCard
                   key={request.id}
+                  productID={request.productid}
+                  productTitle={request.producttitle}
                   userFrom={request.userfrom}
                   userTo={request.userto}
+                  id={request.id}
                 />
               ))}
             </div>
