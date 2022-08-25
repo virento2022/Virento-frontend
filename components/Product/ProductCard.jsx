@@ -21,11 +21,11 @@ const ProductCard = (props) => {
                     ${props.price}
                 </span>
                 <Link href={'/product/' + props.id} key={props.id}>
-                    <h2 className="text-green-600 mb-4 text-2xl font-semibold font-heading cursor-pointer">
+                    <h2 className="text-green-600 mb-4 text-2xl font-semibold font-heading cursor-pointer truncate">
                     {props.title}
                     </h2>
                 </Link>
-                <p className="mb-4 leading-relaxed"> {props.description} </p>
+                <p className="mb-4 leading-relaxed truncate"> {props.description} </p>
             </div>
         </div>
     )
