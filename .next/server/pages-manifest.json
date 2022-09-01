@@ -1,7 +1,16 @@
 {
   "/_app": "pages/_app.js",
+  "/about-us": "pages/about-us.js",
+  "/api/auth/[...auth0]": "pages/api/auth/[...auth0].js",
+  "/api/hello": "pages/api/hello.js",
+  "/contact": "pages/contact.js",
+  "/": "pages/index.js",
+  "/notification": "pages/notification.js",
+  "/post": "pages/post.js",
+  "/user/[id]": "pages/user/[id].js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
   "/product/[id]": "pages/product/[id].js",
-  "/product": "pages/product.js"
+  "/product": "pages/product.js",
+  "/request": "pages/request.js",
+  "/_document": "pages/_document.js"
 }

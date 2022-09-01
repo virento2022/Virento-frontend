@@ -12,9 +12,19 @@ export async function getServerSideProps(context) {
     };
 };
 
+import Head from 'next/head'
+
 const Product = ({ products }) => {
     return (
         <>
+            <Head>
+                <title>Sản phẩm</title>
+                <meta
+                    name="viewport"
+                    content="initial-scale=1.0, width=device-width"
+                />
+            </Head>
+
             <Navbar />
             <div className="max-w-screen-xl mx-auto">
                 <section className="relative py-20 bg-white">

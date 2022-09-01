@@ -7,6 +7,8 @@ import { useEffect } from "react";
 import NotificationCard from "../components/Notification/NotificationCard";
 NotificationCard
 
+import Head from 'next/head'
+
 function Request() {
 
     const { user } = useUser();
@@ -28,6 +30,14 @@ function Request() {
 
     return (
         <>
+            <Head>
+                <title>Thông báo</title>
+                <meta
+                    name="viewport"
+                    content="initial-scale=1.0, width=device-width"
+                />
+            </Head>
+
             <Navbar />
             <div className="max-w-screen-xl mx-auto">
                 <section className="relative py-20 bg-white">
