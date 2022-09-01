@@ -59,7 +59,7 @@ const Form = () => {
       <div className="block p-6 rounded-lg shadow-lg bg-white w-4/5 mx-30 mx-10 h-100">
         <form onSubmit={handleSubmit}>
           <div className="border-emeral d-400 border-2 rounded-2x1 text-green-600 text-xl drop-shadow-xl">
-            <legend className="mx-32 my-4 p-1 text-3xl p-1 text-3xl text-center font-bold">
+            <legend className="mx-32 my-4 p-1 text-3xl text-center font-bold">
               Đăng tải sản phẩm
             </legend>
             <label for="title" className="">
@@ -79,14 +79,18 @@ const Form = () => {
               Danh mục sản phẩm
             </label>
             <br />
-            <input
+            <select
               name="category"
               type="text"
               placeholder="Enter category"
               onChange={handleChange}
               value={state.category}
-              required
-            />
+              required>
+                <option selected>Chọn danh mục</option>
+                <option>Thời trang</option>
+                <option>Công nghệ</option>
+                <option>Du lịch</option>
+              </select>
             <br />
             <label for="price" className="">
               Giá cho thuê
