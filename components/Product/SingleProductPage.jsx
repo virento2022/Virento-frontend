@@ -74,9 +74,6 @@ const SingleProductPage = (props) => {
                 src="https://tuk-cdn.s3.amazonaws.com/can-uploader/productDetail4-svg1.svg"
                 alt="stars"
               ></img>
-              <p class="font-normal text-base leading-4 text-gray-700 hover:underline hover:text-gray-800 duration-100 cursor-pointer">
-                22 reviews
-              </p>
             </div>
 
             <p class="font-normal text-base leading-6 text-gray-600  mt-7">
