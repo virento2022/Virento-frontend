@@ -70,7 +70,7 @@ function Navbar() {
 
               {user ? (
                 <li className="mr-12">
-                  <Link href={`user/${user.sub}`}>
+                  <Link href={`/user/${user.sub}`} replace> 
                     <a className="text-black-500 hover:text-gray-400" href="#">
                       Trang cá nhân
                     </a>
