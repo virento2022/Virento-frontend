@@ -1,16 +1,17 @@
 {
-  "/_error": "pages/_error.js",
-  "/about-us": "pages/about-us.js",
-  "/api/hello": "pages/api/hello.js",
-  "/contact": "pages/contact.js",
-  "/notification": "pages/notification.js",
-  "/post": "pages/post.js",
-  "/": "pages/index.js",
-  "/api/auth/[...auth0]": "pages/api/auth/[...auth0].js",
+  "/about-us": "pages/about-us.html",
   "/_app": "pages/_app.js",
-  "/user/[id]": "pages/user/[id].js",
+  "/api/auth/[...auth0]": "pages/api/auth/[...auth0].js",
+  "/contact": "pages/contact.html",
+  "/api/hello": "pages/api/hello.js",
+  "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/notification": "pages/notification.html",
+  "/user/[id]": "pages/user/[id].html",
+  "/post": "pages/post.html",
+  "/request": "pages/request.html",
   "/product/[id]": "pages/product/[id].js",
   "/product": "pages/product.js",
   "/_document": "pages/_document.js",
-  "/request": "pages/request.js"
+  "/404": "pages/404.html"
 }
