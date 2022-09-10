@@ -13,8 +13,8 @@ import hand from "../public/assets/hand.svg"
 import LP from "../public/assets/LP.png"
 import DQV from "../public/assets/DQV.png"
 import PMH from "../public/assets/PMH.png"
-import NNA from "../public/assets/NNA.png"
-import HA from "../public/assets/NHA.png"
+import THV from "../public/assets/THV.png"
+import NHA from "../public/assets/NHA.png"
 import NDD from "../public/assets/NDD.png"
 
 import AD1 from "../public/assets/Mrs_ThuHang.png"
@@ -276,7 +276,7 @@ export default function About() {
                             <h4 className="text-green-600 font-bold">
                                 Giám đốc điều hành (CEO)
                             </h4>
-                            <Image src={HA} height={200} width={200} />
+                            <Image src={NHA} height={200} width={200} />
                             <h3>Nguyễn Hà An</h3>
                             <h4 className="text-green-600 font-bold">
                                 Co-Founder
@@ -291,8 +291,8 @@ export default function About() {
                             <h4 className="text-green-600 font-bold">
                                 Giám đốc Kỹ thuật (CTO)
                             </h4>
-                            <Image src={NNA} height={150} width={150} />
-                            <h3>Nguyễn Nhật Anh</h3>
+                            <Image src={THV} height={150} width={150} />
+                            <h3>Trần Hà Vy</h3>
                             <h4 className="text-green-600 font-bold">
                                 Giám đốc Marketing (CMO)
                             </h4>
