@@ -1,4 +1,5 @@
 import Link from "next/link"
+import formatCurrency from "../../utils/formatCurrency"
 
 const ProductCard = (props) => {
 
@@ -18,7 +19,7 @@ const ProductCard = (props) => {
                     />
                 </div>
                 <span className="inline-block mb-4 text-xl">
-                    ${props.price}
+                    {formatCurrency(props.price)}
                 </span>
                 <Link href={'/product/' + props.id} key={props.id}>
                     <h2 className="text-green-600 mb-4 text-2xl font-semibold font-heading cursor-pointer truncate">

@@ -3,6 +3,7 @@ import axios from "axios";
 import React from "react";
 import baseUrl from "../../utils/baseUrl";
 import Router from "next/router";
+import formatCurrency from "../../utils/formatCurrency";
 
 const SingleProductPage = (props) => {
     const { user } = useUser();
@@ -80,7 +81,7 @@ const SingleProductPage = (props) => {
               {props.description}.
             </p>
             <p className="font-semibold lg:text-2xl text-green-500 text-xl lg:leading-6 leading-5 mt-6  hover:text-green-600">
-              $ {props.price}
+              {formatCurrency(props.price)}
             </p>
 
             <div className="lg:mt-11 mt-10">
