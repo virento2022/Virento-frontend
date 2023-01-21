@@ -1,3 +1,3 @@
-const baseUrl = "https://virento-backend.herokuapp.com";
+const baseUrl = "http://54.211.226.29:5000/";
 
 export default baseUrl;
