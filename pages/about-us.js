@@ -24,7 +24,7 @@ import AD4 from "../public/assets/Mr_DinhDat.png"
 import AD5 from "../public/assets/Mrs_LinhChi.png"
 import AD6 from "../public/assets/Mr_TatThang.png"
 
-import DKS from "../public/assets/DKS_logo.jpg"
+// import DKS from "../public/assets/DKS_logo.jpg"
 import ECO from "../public/assets/ECO_logo.png"
 
 import Head from "next/head";
@@ -58,7 +58,7 @@ export default function About() {
                                         trong chúng ta đều có xu hướng lãng phí
                                         tiền bạc, tài nguyên cho những vật dụng,
                                         đồ đạc chỉ dùng một lần và bỏ đi chỉ vì
-                                        "lạc hậu". Nhưng nếu bạn không cần, điều
+                                        &quot;lạc hậu&quot;. Nhưng nếu bạn không cần, điều
                                         này không đồng nghĩa với việc người khác
                                         không cần.
                                         <br />
@@ -360,9 +360,9 @@ export default function About() {
                             <div className="w-1/2 mx-auto">
                                 <Image src={ECO} height={150} width={215} />
                             </div>
-                            <div className="w-1/2 mx-auto">
+                            {/* <div className="w-1/2 mx-auto">
                                 <Image src={DKS} height={150} width={324} />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>

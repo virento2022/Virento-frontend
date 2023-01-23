@@ -62,7 +62,7 @@ const Form = () => {
             <legend className="mx-32 my-4 p-1 text-3xl text-center font-bold">
               Đăng tải sản phẩm
             </legend>
-            <label for="title" className="">
+            <label htmlFor="title" className="">
               Tên Sản Phẩm
             </label>
             <br />
@@ -75,7 +75,7 @@ const Form = () => {
               required
             />
             <br />
-            <label for="category" className="">
+            <label htmlFor="category" className="">
               Danh mục sản phẩm
             </label>
             <br />
@@ -92,7 +92,7 @@ const Form = () => {
                 <option>Du lịch</option>
               </select>
             <br />
-            <label for="price" className="">
+            <label htmlFor="price" className="">
               Giá cho thuê
             </label>
             <br />
@@ -105,7 +105,7 @@ const Form = () => {
               required
             />
             <br />
-            <label for="condition" className="">
+            <label htmlFor="condition" className="">
               Tình trạng sản phẩm
             </label>
             <br />
@@ -118,7 +118,7 @@ const Form = () => {
             />
             <br />
 
-            <label for="description" className="">
+            <label htmlFor="description" className="">
               Miêu tả sản phẩm
             </label>
             <br />

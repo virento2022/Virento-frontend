@@ -1,6 +1,6 @@
 import Image from "next/image"
 import ECO from "../../public/assets/ECO_logo.png"
-import DKS from "../../public/assets/DKS_logo.jpg"
+// import DKS from "../../public/assets/DKS_logo.jpg"
 
 const Partners = () => {
     return(
@@ -12,14 +12,14 @@ const Partners = () => {
             <div className="container px-8 mx-auto mt-8">
                 <div className="columns-2 px-20">
                     <div className="w-1/2 mx-auto pl-20">
-                        <a href="https://eco.com.vn" target="_blank">
+                        <a href="https://eco.com.vn" target="_blank" rel="noreferrer">
                             <Image src={ECO} height={100} width={145} />
                         </a>
                     </div>
                     <div className="w-1/2 mx-auto">
-                        <a href="https://dks-didactic.com" target="_blank">
+                        {/* <a href="https://dks-didactic.com" target="_blank" rel="noreferrer">
                             <Image src={DKS} height={100} width={216} />
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>

@@ -67,7 +67,7 @@ const ProfileDetails = () => {
                       </label>
                       <input
                         type="name"
-                        tabindex="0"
+                        tabIndex="0"
                         className="w-full p-3 mt-3 bg-gray-100 border rounded border-gray-200 focus:outline-none focus:border-gray-600 text-sm font-medium leading-none text-gray-800"
                         aria-labelledby="firstName"
                         placeholder={user.name}
@@ -82,7 +82,7 @@ const ProfileDetails = () => {
                       </label>
                       <input
                         type="name"
-                        tabindex="0"
+                        tabIndex="0"
                         className="w-full p-3 mt-3 bg-gray-100 border rounded border-gray-200 focus:outline-none focus:border-gray-600 text-sm font-medium leading-none text-gray-800"
                         aria-labelledby="lastName"
                         placeholder={user.nickname}
@@ -99,7 +99,7 @@ const ProfileDetails = () => {
                       </label>
                       <input
                         type="email"
-                        tabindex="0"
+                        tabIndex="0"
                         className="w-full p-3 mt-3 bg-gray-100 border rounded border-gray-200 focus:outline-none focus:border-gray-600 text-sm font-medium leading-none text-gray-800"
                         aria-labelledby="emailAddress"
                         placeholder={user.email}
@@ -114,7 +114,7 @@ const ProfileDetails = () => {
                       </label>
                       <input
                         type="name"
-                        tabindex="0"
+                        tabIndex="0"
                         className="w-full p-3 mt-3 bg-gray-100 border rounded border-gray-200 focus:outline-none focus:border-gray-600 text-sm font-medium leading-none text-gray-800"
                         aria-labelledby="phone"
                         placeholder="123-1234567"
