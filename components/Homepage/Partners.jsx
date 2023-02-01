@@ -1,6 +1,6 @@
 import Image from "next/image"
 import ECO from "../../public/assets/ECO_logo.png"
-// import DKS from "../../public/assets/DKS_logo.jpg"
+import DKS from "../../public/assets/DKS_logo.png"
 
 const Partners = () => {
     return(
@@ -10,16 +10,16 @@ const Partners = () => {
                 <p className="text-base leading-normal text-center text-gray-600 mt-4 xl:w-1/2 w-10/12"></p>
             </div>
             <div className="container px-8 mx-auto mt-8">
-                <div className="columns-2 px-20">
-                    <div className="w-1/2 mx-auto pl-20">
+                <div className="md:columns-2">
+                    <div className="w-1/2 mx-auto">
                         <a href="https://eco.com.vn" target="_blank" rel="noreferrer">
-                            <Image src={ECO} height={100} width={145} />
+                            <Image src={ECO} height={400} width={580} />
                         </a>
                     </div>
                     <div className="w-1/2 mx-auto">
-                        {/* <a href="https://dks-didactic.com" target="_blank" rel="noreferrer">
-                            <Image src={DKS} height={100} width={216} />
-                        </a> */}
+                        <a href="https://dks-didactic.com" target="_blank" rel="noreferrer">
+                            <Image src={DKS} height={400} width={864} />
+                        </a>
                     </div>
                 </div>
             </div>

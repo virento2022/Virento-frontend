@@ -24,7 +24,7 @@ import AD4 from "../public/assets/Mr_DinhDat.png"
 import AD5 from "../public/assets/Mrs_LinhChi.png"
 import AD6 from "../public/assets/Mr_TatThang.png"
 
-// import DKS from "../public/assets/DKS_logo.jpg"
+import DKS from "../public/assets/DKS_logo.png"
 import ECO from "../public/assets/ECO_logo.png"
 
 import Head from "next/head";
@@ -356,13 +356,13 @@ export default function About() {
                         <h1 className="text-4xl md:text-6xl mt-4 mb-16 font-heading mx-auto text-center">
                             OUR KEY PARTNERS
                         </h1>
-                        <div className="columns-2">
-                            <div className="w-1/2 mx-auto">
+                        <div className="md:columns-2 mx-auto">
+                            <div className="w-1/2 mx-auto mb-10">
                                 <Image src={ECO} height={150} width={215} />
                             </div>
-                            {/* <div className="w-1/2 mx-auto">
+                            <div className="w-1/2 mx-auto mb-10">
                                 <Image src={DKS} height={150} width={324} />
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </section>

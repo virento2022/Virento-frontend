@@ -56,9 +56,9 @@ const Form = () => {
     }
 
     return (
-      <div className="block p-6 rounded-lg shadow-lg bg-white w-4/5 mx-30 mx-10 h-100">
+      <div className="block p-6 rounded-lg shadow-lg bg-white w-5/6 mx-auto h-100">
         <form onSubmit={handleSubmit}>
-          <div className="border-emeral d-400 border-2 rounded-2x1 text-green-600 text-xl drop-shadow-xl">
+          <div className="text-green-600 text-xl drop-shadow-xl mx-8">
             <legend className="mx-32 my-4 p-1 text-3xl text-center font-bold">
               Đăng tải sản phẩm
             </legend>
@@ -66,10 +66,10 @@ const Form = () => {
               Tên Sản Phẩm
             </label>
             <br />
-            <input
+            <input className="my-2 h-12 w-full rounded bg-[#B9DCAC36] border border-black p-2"
               name="title"
               type="text"
-              placeholder="Enter title"
+              placeholder
               onChange={handleChange}
               value={state.title}
               required
@@ -79,7 +79,7 @@ const Form = () => {
               Danh mục sản phẩm
             </label>
             <br />
-            <select
+            <select className="my-2 h-12 w-full rounded bg-[#B9DCAC36] border border-black pl-1"
               name="category"
               type="text"
               placeholder="Enter category"
@@ -96,10 +96,10 @@ const Form = () => {
               Giá cho thuê
             </label>
             <br />
-            <input
+            <input className="my-2 h-12 w-full rounded bg-[#B9DCAC36] border border-black p-2"
               name="price"
               type="number"
-              placeholder="Enter price"
+              placeholder
               onChange={handleChange}
               value={state.price}
               required
@@ -109,9 +109,9 @@ const Form = () => {
               Tình trạng sản phẩm
             </label>
             <br />
-            <input
+            <input className="my-2 h-12 w-full rounded bg-[#B9DCAC36] border border-black p-2"
               name="condition"
-              placeholder="Enter condition"
+              placeholder
               onChange={handleChange}
               value={state.condition}
               required
@@ -122,9 +122,9 @@ const Form = () => {
               Miêu tả sản phẩm
             </label>
             <br />
-            <textarea
+            <textarea className="my-2 h-40 w-full rounded bg-[#B9DCAC36] border border-black p-2"
               name="description"
-              placeholder="Enter description"
+              placeholder
               onChange={handleChange}
               value={state.description}
               required
@@ -140,7 +140,7 @@ const Form = () => {
             />
             <button
               type="submit"
-              className="my-4 py-4 px-12 bg-green-300 text-green-800 border-2 hover:bg-green-500 hover:cursor-pointer rounded-full"
+              className="object-center my-4 py-4 px-12 bg-[#B9DCAC] text-[#026B2E] font-semibold border-2 hover:bg-[#8FAB85] hover:text-[#084708] hover:cursor-pointer rounded-full"
             >
               Đăng sản phẩm
             </button>
