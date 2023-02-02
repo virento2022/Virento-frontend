@@ -36,7 +36,7 @@ const Categories = () => {
                     </button>
                     <div className="w-full h-full mx-auto overflow-x-hidden overflow-y-hidden">
                         <div id="slider" className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
-                            <div className="flex flex-shrink-0 relative sm:w-auto">
+                        <div className="flex flex-shrink-0 relative sm:w-auto">
                                 <Image src={clothes} height={493} width={300} />
                                 <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                     <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white"></h2>
@@ -45,7 +45,7 @@ const Categories = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-shrink-0 relative sm:w-auto">
+                            {/* <div className="flex flex-shrink-0 relative sm:w-auto">
                                 <Image src={tech} height={493} width={300} />
                                 <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                     <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white"></h2>
@@ -53,7 +53,59 @@ const Categories = () => {
                                         <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Công nghệ</h3>
                                     </div>
                                 </div>
+                            </div> */}
+                            <div className="flex flex-shrink-0 relative sm:w-auto">
+                                <Image src={travel} height={493} width={300} />
+                                <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white"></h2>
+                                    <div className="flex h-full items-end pb-6">
+                                        <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Du lịch</h3>
+                                    </div>
+                                </div>
+                            </div><div className="flex flex-shrink-0 relative sm:w-auto">
+                                <Image src={clothes} height={493} width={300} />
+                                <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white"></h2>
+                                    <div className="flex h-full items-end pb-6">
+                                        <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Thời trang</h3>
+                                    </div>
+                                </div>
                             </div>
+                            {/* <div className="flex flex-shrink-0 relative sm:w-auto">
+                                <Image src={tech} height={493} width={300} />
+                                <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white"></h2>
+                                    <div className="flex h-full items-end pb-6">
+                                        <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Công nghệ</h3>
+                                    </div>
+                                </div>
+                            </div> */}
+                            <div className="flex flex-shrink-0 relative sm:w-auto">
+                                <Image src={travel} height={493} width={300} />
+                                <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white"></h2>
+                                    <div className="flex h-full items-end pb-6">
+                                        <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Du lịch</h3>
+                                    </div>
+                                </div>
+                            </div><div className="flex flex-shrink-0 relative sm:w-auto">
+                                <Image src={clothes} height={493} width={300} />
+                                <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white"></h2>
+                                    <div className="flex h-full items-end pb-6">
+                                        <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Thời trang</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <div className="flex flex-shrink-0 relative sm:w-auto">
+                                <Image src={tech} height={493} width={300} />
+                                <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white"></h2>
+                                    <div className="flex h-full items-end pb-6">
+                                        <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Công nghệ</h3>
+                                    </div>
+                                </div>
+                            </div> */}
                             <div className="flex flex-shrink-0 relative sm:w-auto">
                                 <Image src={travel} height={493} width={300} />
                                 <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
@@ -63,7 +115,7 @@ const Categories = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-shrink-0 relative sm:w-auto">
+                            {/* <div className="flex flex-shrink-0 relative sm:w-auto">
                                 <Image src={moto} height={493} width={300} />
                                 <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                     <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white"></h2>
@@ -71,7 +123,7 @@ const Categories = () => {
                                         <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Phương tiện</h3>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="flex flex-shrink-0 relative sm:w-auto">
                                 <Image src={clothes} height={493} width={300} />
                                 <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
@@ -81,7 +133,7 @@ const Categories = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-shrink-0 relative sm:w-auto">
+                            {/* <div className="flex flex-shrink-0 relative sm:w-auto">
                                 <Image src={tech} height={493} width={300} />
                                 <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                     <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white"></h2>
@@ -89,7 +141,7 @@ const Categories = () => {
                                         <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Công nghệ</h3>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="flex flex-shrink-0 relative sm:w-auto">
                                 <Image src={travel} height={493} width={300} />
                                 <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
@@ -99,7 +151,7 @@ const Categories = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-shrink-0 relative sm:w-auto">
+                            {/* <div className="flex flex-shrink-0 relative sm:w-auto">
                                 <Image src={moto} height={493} width={300} />
                                 <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                     <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">Catalog</h2>
@@ -107,7 +159,7 @@ const Categories = () => {
                                         <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Phương tiện</h3>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <button onClick={goNext} className="absolute z-30 right-0 mr-10 focus:outline-none">
